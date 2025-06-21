@@ -1,0 +1,1001 @@
+ID,Doença,Idade,Peso,Gravidade,Dor,Mobilidade,Apetite,Temperatura,Internar,Dias Internado,Alta,Eutanasia
+1,Esofagite grave crônica,9.8,36.4,5,9,limitada,normal,41.3,1,0,0,0
+2,Colapso traqueal avançado,5.2,35.5,2,3,limitada,baixo,39.0,0,0,1,0
+3,Doença inflamatória intestinal severa,6.4,35.4,9,10,sem andar,normal,39.7,1,4,0,1
+4,Anemia hemolítica autoimune,11.1,23.9,8,9,limitada,nenhum,41.4,1,6,0,0
+5,Melanoma oral metastático,1.2,18.0,5,0,limitada,baixo,38.3,0,0,0,0
+6,Doença periodontal extrema,3.2,11.1,7,2,sem andar,normal,38.1,1,5,0,0
+7,Toxicidade irreversível por medicamentos,4.2,12.6,0,7,normal,normal,38.5,1,0,0,0
+8,Síndrome de Chediak-Higashi canina,6.2,30.4,0,9,normal,baixo,40.1,1,0,0,0
+9,Síndrome de Cushing descompensada,5.1,45.4,0,3,sem andar,nenhum,39.8,0,0,1,0
+10,Diabetes mellitus descontrolado,10.0,37.9,6,10,sem andar,nenhum,37.7,1,2,0,0
+11,Tumor cerebral inoperável,6.6,42.3,1,4,normal,nenhum,38.6,0,0,1,0
+12,Síndrome de Cushing descompensada,9.1,39.6,5,2,limitada,normal,38.0,0,0,0,0
+13,Síndrome respiratória obstrutiva crônica,7.3,44.1,2,0,normal,baixo,40.5,0,0,1,0
+14,Tumores nasais inoperáveis,4.9,39.3,2,9,normal,nenhum,39.0,1,0,0,0
+15,Síndrome de má absorção severa,3.9,4.0,1,9,sem andar,nenhum,41.0,1,0,0,0
+16,Distrofia muscular,6.8,47.2,2,7,normal,normal,37.9,1,0,0,0
+17,Torção gástrica reincidente,8.2,23.7,8,8,sem andar,baixo,39.2,1,3,0,1
+18,Doença mitocondrial canina,13.7,5.9,2,9,normal,baixo,41.4,1,0,0,0
+19,Parvovirose grave,4.8,24.4,1,3,limitada,nenhum,40.0,0,0,1,0
+20,Hepatite crônica severa,7.1,36.0,6,2,sem andar,nenhum,38.5,1,1,0,0
+21,Paralisia total,9.8,46.9,9,7,sem andar,baixo,40.3,1,6,0,0
+22,Fraturas múltiplas irreparáveis,13.7,49.4,5,6,limitada,nenhum,40.1,1,0,0,0
+23,Histoplasmose disseminada,14.1,27.0,4,1,normal,normal,39.1,0,0,1,0
+24,Doença do carrapato grave,8.8,4.7,6,1,sem andar,nenhum,39.0,1,6,0,0
+25,Blastomicose avançada,14.3,21.6,0,0,limitada,nenhum,39.8,0,0,1,0
+26,Retocolite ulcerativa canina,6.8,10.9,3,3,sem andar,normal,38.6,0,0,1,0
+27,Encefalite canina grave,14.7,31.3,2,0,normal,baixo,41.2,0,0,1,0
+28,Doença degenerativa do disco vertebral,9.0,36.3,7,6,limitada,nenhum,38.1,1,2,0,0
+29,Doença degenerativa do disco vertebral,4.5,49.0,4,3,limitada,nenhum,40.0,0,0,1,0
+30,Sequelas neuromusculares irreversíveis,8.4,27.8,5,5,normal,nenhum,38.8,0,0,0,0
+31,Hipotireoidismo refratário,8.6,48.4,8,6,normal,nenhum,41.4,1,4,0,0
+32,Artrite severa intratável,11.5,28.0,10,0,limitada,baixo,40.7,1,2,0,0
+33,Doença inflamatória intestinal severa,0.6,6.2,7,3,normal,baixo,37.9,1,6,0,0
+34,Tumores nasais inoperáveis,6.5,14.0,0,9,normal,normal,39.5,1,0,0,0
+35,Doença mitral canina terminal,14.6,41.3,1,10,normal,normal,40.2,1,0,0,0
+36,Hemofilia grave,8.5,31.7,7,0,limitada,normal,39.8,1,6,0,0
+37,Dirofilariose grave (verme do coração),1.6,36.3,8,3,sem andar,baixo,40.2,1,7,0,0
+38,Melanoma oral metastático,7.9,36.9,10,9,sem andar,normal,40.7,1,1,0,1
+39,Disfunção cognitiva avançada,11.8,4.6,6,8,limitada,baixo,41.0,1,7,0,0
+40,Tumor de células redondas maligno,10.4,8.9,7,2,normal,baixo,39.6,1,5,0,0
+41,Cinomose em estágio terminal,8.8,45.7,10,9,sem andar,nenhum,38.8,1,2,0,1
+42,Tromboembolismo pulmonar canino,3.6,23.4,7,1,normal,normal,40.9,1,3,0,0
+43,Doença periodontal extrema,1.3,23.5,10,10,limitada,baixo,40.1,1,5,0,0
+44,Sequelas neuromusculares irreversíveis,2.1,25.2,5,0,sem andar,normal,41.4,0,0,0,0
+45,Doença de Lyme severa,6.9,31.2,8,6,sem andar,baixo,38.1,1,1,0,0
+46,Infecções resistentes hospitalares,3.5,9.1,9,1,sem andar,baixo,41.1,1,5,0,0
+47,Leucemia canina terminal,1.0,17.7,6,5,limitada,normal,39.5,1,7,0,0
+48,Falência de múltiplos órgãos,8.6,11.3,3,4,limitada,normal,38.0,0,0,1,0
+49,Anemia hemolítica autoimune,3.4,40.0,0,6,normal,normal,41.2,1,0,0,0
+50,Leptospirose avançada,7.5,35.2,1,6,sem andar,normal,39.3,1,0,0,0
+51,Doença cardíaca congestiva avançada,8.2,40.3,8,8,normal,nenhum,38.5,1,6,0,0
+52,Distrofia corneana,10.4,9.0,0,10,normal,baixo,38.5,1,0,0,0
+53,Tumor cerebral inoperável,4.7,17.5,6,0,normal,baixo,38.9,1,2,0,0
+54,Anemia hemolítica autoimune,3.8,15.0,7,0,sem andar,nenhum,41.4,1,2,0,0
+55,Miopatias degenerativas,2.3,23.9,0,3,normal,nenhum,38.6,0,0,1,0
+56,Síndrome de Cushing descompensada,3.2,45.4,5,4,sem andar,baixo,38.4,0,0,0,0
+57,Hidrocefalia avançada,2.9,8.2,1,2,normal,normal,39.8,0,0,1,0
+58,Blastomicose avançada,11.8,21.0,3,5,limitada,baixo,40.3,0,0,0,0
+59,Sequelas graves de trauma craniano,9.8,2.1,3,6,sem andar,nenhum,39.6,1,0,0,0
+60,Linfangiossarcoma,4.0,5.1,2,3,normal,baixo,40.7,0,0,1,0
+61,Doença de Addison em crise,2.3,14.6,7,2,sem andar,baixo,41.2,1,2,0,0
+62,Sequelas de maus-tratos graves,9.8,48.7,4,10,sem andar,baixo,37.9,1,0,0,0
+63,Hipertensão pulmonar grave,6.7,19.0,5,10,normal,nenhum,37.7,1,0,0,0
+64,Criptorquidismo com câncer testicular,13.5,49.4,10,4,sem andar,nenhum,39.4,1,4,0,0
+65,Luxação patelar grau IV,8.6,31.7,6,2,normal,baixo,40.8,1,7,0,0
+66,Doença autoimune avançada,11.2,28.9,9,1,limitada,normal,37.5,1,3,0,0
+67,Cinomose em estágio terminal,6.8,37.5,8,0,normal,normal,38.7,1,3,0,0
+68,Toxicidade irreversível por medicamentos,5.4,17.1,8,2,normal,baixo,39.2,1,2,0,0
+69,Problemas neurológicos degenerativos,13.6,6.9,8,6,normal,normal,38.4,1,3,0,0
+70,Encefalite canina grave,10.6,29.1,10,3,normal,normal,40.7,1,7,0,0
+71,Espondilose severa,11.2,6.7,1,8,sem andar,normal,41.1,1,0,0,0
+72,Artrite severa intratável,6.2,19.3,7,4,limitada,baixo,40.1,1,5,0,0
+73,Retocolite ulcerativa canina,2.1,47.4,8,3,limitada,nenhum,39.6,1,4,0,0
+74,Doença mitral canina terminal,6.1,7.3,5,6,limitada,nenhum,40.5,1,0,0,0
+75,Luxação patelar grau IV,14.2,10.5,0,7,normal,normal,40.9,1,0,0,0
+76,Doença autoimune avançada,12.7,10.8,1,6,sem andar,baixo,40.8,1,0,0,0
+77,Osteossarcoma metastático,2.0,25.4,2,3,limitada,nenhum,38.8,0,0,1,0
+78,Carcinoma anal sac adenocarcinoma,12.7,10.3,0,9,sem andar,nenhum,37.7,1,0,0,0
+79,Hepatocarcinoma avançado,14.5,11.8,10,4,normal,nenhum,38.8,1,7,0,0
+80,Insuficiência hepática terminal,8.4,39.3,10,5,normal,normal,40.4,1,2,0,0
+81,Hepatite crônica severa,14.2,26.3,7,9,normal,nenhum,40.9,1,2,0,0
+82,Sequelas de queimaduras extensas,8.5,36.8,4,6,normal,nenhum,37.6,1,0,0,0
+83,Artrite severa intratável,3.4,9.4,8,10,normal,normal,40.8,1,3,0,0
+84,Sequelas graves de trauma craniano,2.2,24.1,0,2,limitada,nenhum,40.7,0,0,1,0
+85,Doença do neurônio motor canino,14.4,46.8,4,3,normal,nenhum,38.4,0,0,1,0
+86,Síndrome respiratória obstrutiva crônica,7.6,35.4,6,4,normal,normal,38.9,1,5,0,0
+87,Fibrosarcoma oral,4.4,34.2,8,8,sem andar,baixo,37.6,1,7,0,1
+88,Doença parasitária crônica grave,2.4,32.3,7,8,limitada,nenhum,39.4,1,1,0,0
+89,Doença cardíaca congestiva avançada,6.2,38.4,10,4,limitada,baixo,38.0,1,4,0,0
+90,Problemas neurológicos degenerativos,10.5,5.1,4,9,sem andar,baixo,41.1,1,0,0,0
+91,Doença inflamatória intestinal severa,2.8,14.2,2,7,normal,nenhum,41.2,1,0,0,0
+92,Distrofia muscular,12.9,14.5,3,10,limitada,nenhum,38.9,1,0,0,0
+93,Criptorquidismo com câncer testicular,4.3,42.1,5,10,sem andar,baixo,41.0,1,0,0,0
+94,Fibrosarcoma oral,13.4,35.1,3,3,sem andar,normal,40.5,0,0,1,0
+95,Fraturas múltiplas irreparáveis,12.8,23.8,1,0,normal,normal,39.0,0,0,1,0
+96,Tumores cutâneos malignos disseminados,12.6,19.6,8,7,limitada,normal,40.0,1,5,0,0
+97,Infecção fúngica sistêmica grave,10.3,46.1,0,7,limitada,normal,40.4,1,0,0,0
+98,Esquistossomose com falência hepática,10.2,22.4,3,0,limitada,baixo,38.6,0,0,1,0
+99,Meningite grave,12.4,29.6,2,7,limitada,baixo,37.5,1,0,0,0
+100,Artrite severa intratável,9.8,9.6,10,2,normal,nenhum,38.7,1,5,0,0
+101,Doença degenerativa do disco vertebral,9.9,19.6,4,1,sem andar,nenhum,40.2,0,0,1,0
+102,Diabetes mellitus descontrolado,4.1,38.9,7,3,normal,nenhum,41.1,1,2,0,0
+103,Sarcóide agressivo,2.3,32.7,1,3,limitada,nenhum,39.5,0,0,1,0
+104,Neuropatia periférica grave,2.0,15.8,0,4,sem andar,baixo,38.2,0,0,1,0
+105,Doença do carrapato grave,3.6,2.4,2,2,normal,baixo,40.7,0,0,1,0
+106,Parvovirose grave,2.7,28.1,6,2,normal,normal,40.8,1,1,0,0
+107,Peritonite infecciosa canina,7.4,22.3,7,7,limitada,normal,38.0,1,4,0,0
+108,Infecção bacteriana sistêmica,14.4,6.7,1,1,limitada,nenhum,40.8,0,0,1,0
+109,Hemorragia interna recorrente,13.2,31.4,2,5,sem andar,normal,38.9,0,0,0,0
+110,Doença mitral canina terminal,1.5,43.3,0,6,sem andar,normal,38.6,1,0,0,0
+111,Distrofia muscular,3.1,43.5,10,6,limitada,normal,40.4,1,6,0,0
+112,Neuropatia periférica grave,4.3,3.0,5,2,limitada,nenhum,40.8,0,0,0,0
+113,Síndrome respiratória obstrutiva crônica,11.8,33.9,10,1,limitada,nenhum,41.0,1,3,0,0
+114,Broncopneumonia crônica,3.7,46.5,5,2,limitada,nenhum,37.5,0,0,0,0
+115,Doença de Lyme severa,8.2,12.2,0,1,limitada,baixo,40.5,0,0,1,0
+116,Miopatias degenerativas,14.1,18.3,4,6,limitada,baixo,40.2,1,0,0,0
+117,Paralisia total,10.3,12.2,7,6,sem andar,baixo,40.3,1,4,0,0
+118,Insuficiência hepática terminal,5.9,10.2,6,8,normal,nenhum,40.3,1,7,0,0
+119,Histoplasmose disseminada,13.7,30.4,2,3,limitada,normal,41.2,0,0,1,0
+120,Distrofia corneana,13.7,18.7,7,7,sem andar,baixo,41.4,1,5,0,0
+121,Artrite severa intratável,5.6,36.5,8,5,sem andar,baixo,38.6,1,1,0,0
+122,Falência de múltiplos órgãos,6.1,41.5,5,8,sem andar,nenhum,39.3,1,0,0,0
+123,Anemia hemolítica autoimune,11.9,10.4,5,7,sem andar,nenhum,38.5,1,0,0,0
+124,Cegueira total e progressiva com dor,0.6,10.6,0,9,normal,nenhum,38.1,1,0,0,0
+125,Sequelas neuromusculares irreversíveis,8.8,16.8,0,3,normal,normal,40.6,0,0,1,0
+126,Síndrome de Chediak-Higashi canina,13.9,15.1,6,9,normal,normal,39.6,1,7,0,0
+127,Doença degenerativa das válvulas cardíacas,5.9,31.2,10,10,limitada,nenhum,41.4,1,2,0,0
+128,Hemorragia interna recorrente,14.5,34.9,3,5,limitada,nenhum,38.1,0,0,0,0
+129,Luxação patelar grau IV,4.6,34.9,0,2,limitada,baixo,39.1,0,0,1,0
+130,Distrofia muscular,13.8,23.9,8,8,limitada,baixo,40.0,1,4,0,0
+131,Síndrome vestibular canina grave,13.6,15.9,5,5,sem andar,baixo,38.4,0,0,0,0
+132,Doença mitral canina terminal,10.0,23.8,1,1,limitada,normal,39.2,0,0,1,0
+133,Síndrome respiratória obstrutiva crônica,5.4,18.7,5,5,normal,normal,41.4,0,0,0,0
+134,Doença periodontal extrema,6.8,42.7,8,3,sem andar,baixo,41.1,1,4,0,0
+135,Meningite grave,11.9,46.7,0,9,normal,normal,40.3,1,0,0,0
+136,Cegueira total e progressiva com dor,2.6,49.5,1,4,limitada,baixo,39.6,0,0,1,0
+137,Luxação patelar grau IV,0.9,21.5,10,10,normal,nenhum,38.5,1,3,0,0
+138,Fraturas expostas múltiplas,14.9,39.8,3,1,normal,normal,40.1,0,0,1,0
+139,Insuficiência adrenal severa,10.2,37.9,6,2,sem andar,baixo,38.6,1,3,0,0
+140,Hemangiossarcoma avançado,7.2,29.7,7,2,normal,nenhum,39.0,1,4,0,0
+141,Insuficiência renal crônica grave,12.8,3.5,3,3,sem andar,baixo,37.6,0,0,1,0
+142,Síndrome respiratória obstrutiva crônica,11.7,35.8,2,4,limitada,baixo,39.8,0,0,1,0
+143,Doença renal policística,1.9,24.8,2,1,limitada,normal,38.5,0,0,1,0
+144,Linfoma canino em estágio terminal,4.5,3.9,3,2,limitada,normal,40.5,0,0,1,0
+145,Criptorquidismo com câncer testicular,6.0,36.5,2,0,limitada,nenhum,40.6,0,0,1,0
+146,Complicações pós-operatórias fatais,8.1,41.7,0,8,sem andar,baixo,38.3,1,0,0,0
+147,Cinomose em estágio terminal,8.0,30.1,0,4,normal,nenhum,37.8,0,0,1,0
+148,Esofagite grave crônica,0.6,35.2,8,8,sem andar,normal,40.3,1,7,0,1
+149,Infecção fúngica sistêmica grave,1.8,36.6,5,8,limitada,baixo,40.7,1,0,0,0
+150,Complicações pós-operatórias fatais,12.6,29.4,7,8,limitada,baixo,40.0,1,3,0,0
+151,Luxação patelar grau IV,7.5,2.9,7,7,normal,normal,40.7,1,1,0,0
+152,Doença periodontal extrema,5.2,6.7,0,3,sem andar,normal,37.7,0,0,1,0
+153,Fraturas expostas múltiplas,6.9,3.3,9,9,sem andar,baixo,39.2,1,2,0,1
+154,Tumores mamários malignos inoperáveis,5.2,27.0,5,3,sem andar,nenhum,39.5,0,0,0,0
+155,Insuficiência adrenal severa,5.4,15.2,2,9,normal,nenhum,39.4,1,0,0,0
+156,Sequelas graves de trauma craniano,4.5,22.1,3,3,sem andar,normal,40.2,0,0,1,0
+157,Hemangiossarcoma avançado,6.6,6.0,2,1,sem andar,baixo,38.6,0,0,1,0
+158,Esquistossomose com falência hepática,12.5,48.7,9,4,normal,nenhum,40.7,1,5,0,0
+159,Surdez total associada a confusão,9.9,20.3,1,3,sem andar,nenhum,40.3,0,0,1,0
+160,Distrofia corneana,6.3,31.8,4,8,normal,normal,38.1,1,0,0,0
+161,Melanoma oral metastático,10.5,49.7,0,8,normal,baixo,41.2,1,0,0,0
+162,Linfoma canino em estágio terminal,7.3,11.9,0,7,limitada,normal,38.3,1,0,0,0
+163,Complicações pós-operatórias fatais,2.1,28.5,6,9,limitada,baixo,41.3,1,6,0,0
+164,Miopatias degenerativas,9.5,13.6,3,1,sem andar,baixo,39.8,0,0,1,0
+165,Cegueira total e progressiva com dor,5.5,29.9,10,7,sem andar,baixo,38.0,1,6,0,0
+166,Doença parasitária crônica grave,6.9,18.2,4,7,sem andar,nenhum,37.6,1,0,0,0
+167,Fibrosarcoma oral,11.7,44.8,10,7,normal,baixo,40.3,1,3,0,0
+168,Linfoma canino em estágio terminal,8.1,44.1,0,6,sem andar,normal,38.6,1,0,0,0
+169,Insuficiência renal crônica grave,10.1,37.0,9,5,normal,nenhum,38.9,1,7,0,0
+170,Hemofilia grave,6.5,44.2,9,3,limitada,nenhum,38.7,1,5,0,0
+171,Colapso traqueal avançado,0.6,33.3,2,0,normal,normal,39.6,0,0,1,0
+172,Carcinoma anal sac adenocarcinoma,2.8,2.8,5,0,normal,nenhum,38.4,0,0,0,0
+173,Carcinoma anal sac adenocarcinoma,0.9,31.9,3,8,limitada,baixo,37.5,1,0,0,0
+174,Torção gástrica reincidente,12.3,17.4,8,1,limitada,baixo,38.1,1,7,0,0
+175,Hemangiossarcoma avançado,6.8,5.6,6,8,sem andar,nenhum,40.3,1,2,0,0
+176,Insuficiência hepática terminal,12.1,14.8,9,2,sem andar,nenhum,40.0,1,3,0,0
+177,Doença renal policística,5.4,39.2,0,1,normal,baixo,40.3,0,0,1,0
+178,Broncopneumonia crônica,11.5,10.7,9,9,limitada,baixo,40.1,1,7,0,0
+179,Distrofia corneana,0.8,10.5,10,3,normal,baixo,38.9,1,2,0,0
+180,Leptospirose avançada,9.8,3.7,9,0,normal,nenhum,37.5,1,2,0,0
+181,Melanoma oral metastático,4.1,31.9,4,1,normal,nenhum,38.2,0,0,1,0
+182,Distrofia corneana,2.7,21.7,4,4,sem andar,nenhum,41.3,0,0,1,0
+183,Leucemia canina terminal,6.7,14.2,4,3,sem andar,baixo,38.7,0,0,1,0
+184,Insuficiência hepática terminal,3.8,19.2,4,8,normal,normal,39.9,1,0,0,0
+185,Encefalite canina grave,10.1,44.1,8,1,sem andar,normal,38.6,1,4,0,0
+186,Encefalite canina grave,6.2,24.2,6,5,sem andar,baixo,40.6,1,1,0,0
+187,Doença cardíaca congestiva avançada,0.7,47.6,10,9,limitada,nenhum,41.2,1,7,0,0
+188,Doença renal policística,9.7,44.6,5,4,normal,nenhum,41.0,0,0,0,0
+189,Hepatocarcinoma avançado,12.5,43.2,8,0,limitada,nenhum,39.4,1,3,0,0
+190,Hipotireoidismo refratário,2.7,12.3,5,4,sem andar,baixo,40.6,0,0,0,0
+191,Insuficiência hepática terminal,14.8,49.1,7,1,sem andar,normal,37.7,1,2,0,0
+192,Esofagite grave crônica,8.2,9.9,7,0,limitada,baixo,40.9,1,1,0,0
+193,Hepatocarcinoma avançado,13.8,27.3,0,6,normal,nenhum,39.2,1,0,0,0
+194,Torção gástrica reincidente,5.7,42.3,7,6,normal,normal,40.1,1,4,0,0
+195,Paralisia total,11.9,10.0,9,7,sem andar,baixo,38.3,1,7,0,0
+196,Doença degenerativa do disco vertebral,11.4,49.7,4,6,sem andar,normal,38.6,1,0,0,0
+197,Tumor cerebral inoperável,5.6,13.3,0,9,sem andar,normal,38.2,1,0,0,0
+198,Dermatose autoimune,13.6,8.2,10,6,limitada,nenhum,38.7,1,7,0,0
+199,Hidrocefalia avançada,2.4,12.5,10,10,limitada,baixo,37.6,1,1,0,0
+200,Complicações pós-operatórias fatais,8.3,40.6,1,7,limitada,nenhum,38.0,1,0,0,0
+201,Tumor cerebral inoperável,4.6,4.4,5,4,normal,normal,41.2,0,0,0,0
+202,Doença do neurônio motor canino,10.3,31.3,3,6,normal,nenhum,39.6,1,0,0,0
+203,Tumor de células redondas maligno,8.2,15.4,9,2,normal,normal,40.1,1,5,0,0
+204,Doença degenerativa do disco vertebral,2.8,37.7,4,6,normal,nenhum,37.8,1,0,0,0
+205,Retocolite ulcerativa canina,9.9,12.2,6,1,limitada,normal,39.4,1,7,0,0
+206,Encefalite canina grave,12.4,41.2,2,7,sem andar,baixo,38.7,1,0,0,0
+207,Doença autoimune avançada,14.3,41.2,6,10,sem andar,baixo,40.0,1,4,0,0
+208,Anemia hemolítica autoimune,14.4,34.7,4,3,limitada,normal,39.1,0,0,1,0
+209,Glaucoma doloroso intratável,2.1,19.0,2,5,normal,nenhum,39.3,0,0,0,0
+210,Doença cardíaca congestiva avançada,6.6,32.9,10,4,limitada,nenhum,38.4,1,2,0,0
+211,Tumor cerebral inoperável,5.6,39.5,5,0,sem andar,normal,38.2,0,0,0,0
+212,Histoplasmose disseminada,12.7,35.2,3,6,sem andar,baixo,41.0,1,0,0,0
+213,Fraturas expostas múltiplas,9.3,45.0,1,7,limitada,nenhum,40.5,1,0,0,0
+214,Doença do neurônio motor canino,2.1,4.0,4,1,normal,baixo,40.5,0,0,1,0
+215,Encefalite canina grave,6.8,10.0,1,3,sem andar,normal,41.5,0,0,1,0
+216,Infecção fúngica sistêmica grave,0.8,46.0,1,7,normal,normal,39.4,1,0,0,0
+217,Síndrome de Chediak-Higashi canina,3.6,33.5,2,9,sem andar,normal,38.6,1,0,0,0
+218,Síndrome de Cushing descompensada,12.8,49.3,4,1,normal,baixo,39.8,0,0,1,0
+219,Doença cardíaca congestiva avançada,3.6,12.2,8,6,sem andar,baixo,38.8,1,6,0,0
+220,Sequelas neuromusculares irreversíveis,12.1,39.8,5,9,sem andar,normal,41.4,1,0,0,0
+221,Tumores mamários malignos inoperáveis,2.4,37.6,10,3,normal,baixo,38.9,1,4,0,0
+222,Meningite grave,14.0,38.2,9,10,sem andar,nenhum,39.2,1,7,0,1
+223,Blastomicose avançada,12.6,12.8,0,7,normal,baixo,37.8,1,0,0,0
+224,Doença autoimune avançada,3.4,4.3,2,4,sem andar,baixo,39.2,0,0,1,0
+225,Disfunção cognitiva avançada,14.0,2.3,0,9,limitada,baixo,40.7,1,0,0,0
+226,Paralisia total,14.7,44.3,0,7,normal,normal,40.5,1,0,0,0
+227,Sequelas de maus-tratos graves,9.9,23.7,2,7,limitada,baixo,38.9,1,0,0,0
+228,Síndrome respiratória obstrutiva crônica,7.9,23.4,2,10,sem andar,nenhum,40.6,1,0,0,0
+229,Hipertensão pulmonar grave,2.5,2.6,0,5,sem andar,nenhum,39.6,0,0,0,0
+230,Fraturas múltiplas irreparáveis,14.1,25.0,7,3,limitada,normal,41.0,1,3,0,0
+231,Dirofilariose grave (verme do coração),7.1,27.7,6,2,sem andar,baixo,39.6,1,5,0,0
+232,Infecção bacteriana sistêmica,0.9,17.1,4,6,limitada,nenhum,40.7,1,0,0,0
+233,Espondilose severa,2.6,10.4,7,6,limitada,nenhum,41.1,1,3,0,0
+234,Doença do carrapato grave,2.6,34.5,6,10,sem andar,normal,40.6,1,6,0,0
+235,Câncer terminal,0.8,28.1,3,10,normal,baixo,41.1,1,0,0,0
+236,Doença de Lyme severa,7.6,48.6,6,6,normal,baixo,38.4,1,7,0,0
+237,Doença de Lyme severa,1.7,10.3,2,2,normal,normal,39.5,0,0,1,0
+238,Glaucoma doloroso intratável,1.7,31.3,4,4,limitada,normal,41.5,0,0,1,0
+239,Blastomicose avançada,9.0,48.4,10,6,normal,nenhum,37.6,1,6,0,0
+240,Síndrome respiratória obstrutiva crônica,14.8,4.6,8,4,sem andar,nenhum,39.2,1,5,0,0
+241,Doença inflamatória intestinal severa,4.7,38.0,1,10,normal,baixo,37.8,1,0,0,0
+242,Fraturas múltiplas irreparáveis,9.6,27.1,2,4,sem andar,baixo,40.8,0,0,1,0
+243,Doença do carrapato grave,13.8,10.8,9,9,limitada,nenhum,37.7,1,4,0,0
+244,Dirofilariose grave (verme do coração),2.1,24.7,4,5,normal,nenhum,41.5,0,0,0,0
+245,Fibrosarcoma oral,4.7,17.4,4,3,limitada,baixo,40.9,0,0,1,0
+246,Epilepsia intratável,1.1,8.8,6,3,sem andar,baixo,38.2,1,3,0,0
+247,Diabetes mellitus descontrolado,11.3,23.9,5,9,sem andar,nenhum,39.4,1,0,0,0
+248,Toxicidade irreversível por medicamentos,6.2,32.0,6,1,sem andar,normal,41.1,1,4,0,0
+249,Peritonite infecciosa canina,7.0,34.8,8,5,sem andar,nenhum,39.3,1,1,0,0
+250,Leptospirose avançada,5.2,49.7,7,6,limitada,nenhum,41.0,1,5,0,0
+251,Luxação patelar grau IV,10.3,37.7,0,1,limitada,nenhum,37.5,0,0,1,0
+252,Leptospirose avançada,0.9,34.9,7,1,normal,nenhum,41.4,1,7,0,0
+253,Blastomicose avançada,10.5,36.9,3,7,sem andar,baixo,38.7,1,0,0,0
+254,Problemas neurológicos degenerativos,13.7,49.2,2,10,normal,baixo,39.5,1,0,0,0
+255,Tumor de células redondas maligno,3.3,47.6,9,3,normal,nenhum,41.0,1,5,0,0
+256,Epilepsia intratável,4.8,31.4,8,7,limitada,nenhum,40.6,1,7,0,0
+257,Sarcóide agressivo,14.3,26.7,7,2,normal,nenhum,39.2,1,2,0,0
+258,Glaucoma doloroso intratável,9.8,37.1,3,5,normal,baixo,37.8,0,0,0,0
+259,Peritonite infecciosa canina,1.5,19.3,10,0,limitada,normal,41.0,1,4,0,0
+260,Doença autoimune avançada,10.0,46.0,3,5,limitada,nenhum,37.7,0,0,0,0
+261,Doença periodontal extrema,6.4,48.3,1,0,sem andar,baixo,38.2,0,0,1,0
+262,Doença inflamatória intestinal severa,5.3,26.3,1,7,limitada,nenhum,39.6,1,0,0,0
+263,Degeneração retiniana progressiva com dor,12.7,3.2,2,9,sem andar,baixo,41.5,1,0,0,0
+264,Sequelas de maus-tratos graves,13.3,34.2,2,6,limitada,normal,38.2,1,0,0,0
+265,Parvovirose grave,7.5,47.3,8,1,limitada,nenhum,40.6,1,7,0,0
+266,Epilepsia intratável,12.5,27.7,5,5,limitada,normal,38.7,0,0,0,0
+267,Hemofilia grave,1.0,44.5,5,5,sem andar,nenhum,38.5,0,0,0,0
+268,Infecção fúngica sistêmica grave,7.2,20.8,8,2,limitada,normal,41.5,1,2,0,0
+269,Esofagite grave crônica,2.7,5.7,4,2,limitada,baixo,38.1,0,0,1,0
+270,Hipotireoidismo refratário,5.9,8.1,4,1,sem andar,normal,38.4,0,0,1,0
+271,Glaucoma doloroso intratável,2.1,31.4,0,10,limitada,normal,38.9,1,0,0,0
+272,Disfunção cognitiva avançada,14.3,2.1,7,2,sem andar,normal,40.9,1,6,0,0
+273,Síndrome de Chediak-Higashi canina,8.2,49.6,0,10,sem andar,baixo,40.0,1,0,0,0
+274,Dermatose autoimune,4.4,28.4,5,9,sem andar,nenhum,41.3,1,0,0,0
+275,Infecções resistentes hospitalares,7.5,20.2,9,4,limitada,nenhum,38.7,1,5,0,0
+276,Doença degenerativa do disco vertebral,14.6,33.4,7,10,limitada,nenhum,39.0,1,1,0,0
+277,Epilepsia intratável,12.8,35.1,2,9,limitada,nenhum,38.3,1,0,0,0
+278,Doença degenerativa do disco vertebral,9.9,3.3,4,10,normal,normal,39.3,1,0,0,0
+279,Tumores mamários malignos inoperáveis,1.8,15.9,10,1,normal,baixo,41.3,1,3,0,0
+280,Diabetes mellitus descontrolado,3.6,19.8,3,6,limitada,normal,40.8,1,0,0,0
+281,Anemia hemolítica autoimune,12.3,27.2,7,7,sem andar,nenhum,39.0,1,3,0,0
+282,Esofagite grave crônica,8.9,4.3,4,2,normal,normal,38.1,0,0,1,0
+283,Broncopneumonia crônica,14.3,13.4,7,3,sem andar,baixo,38.2,1,1,0,0
+284,Miopatias degenerativas,9.1,24.5,1,8,normal,nenhum,37.8,1,0,0,0
+285,Neuropatia periférica grave,9.8,17.4,8,9,sem andar,baixo,40.9,1,6,0,1
+286,Hemorragia interna recorrente,8.4,31.4,1,4,limitada,nenhum,39.3,0,0,1,0
+287,Anorexia nervosa canina,9.6,17.3,7,4,normal,normal,38.8,1,1,0,0
+288,Síndrome vestibular canina grave,1.8,48.6,5,9,normal,nenhum,39.3,1,0,0,0
+289,Doença degenerativa do disco vertebral,6.7,10.6,1,0,limitada,normal,41.4,0,0,1,0
+290,Leucemia canina terminal,9.3,41.3,1,9,sem andar,baixo,37.9,1,0,0,0
+291,Dirofilariose grave (verme do coração),7.2,18.7,9,5,normal,nenhum,37.5,1,5,0,0
+292,Doença mitocondrial canina,1.6,17.9,7,7,limitada,baixo,37.9,1,2,0,0
+293,Fraturas expostas múltiplas,2.7,8.6,2,5,limitada,normal,40.5,0,0,0,0
+294,Sarcóide agressivo,3.5,15.9,7,10,normal,normal,39.6,1,2,0,0
+295,Doença do carrapato grave,2.0,36.8,4,3,normal,normal,39.2,0,0,1,0
+296,Doença do carrapato grave,12.9,24.0,3,4,sem andar,nenhum,39.9,0,0,1,0
+297,Complicações pós-operatórias fatais,14.7,12.9,7,3,normal,baixo,38.0,1,2,0,0
+298,Problemas neurológicos degenerativos,14.2,45.0,4,6,normal,nenhum,40.0,1,0,0,0
+299,Câncer terminal,4.3,30.1,4,6,sem andar,nenhum,39.1,1,0,0,0
+300,Síndrome de má absorção severa,2.7,28.6,6,5,limitada,baixo,39.6,1,1,0,0
+301,Peritonite infecciosa canina,3.0,49.1,9,7,normal,baixo,38.8,1,4,0,0
+302,Distrofia corneana,5.7,5.9,6,9,normal,nenhum,40.7,1,7,0,0
+303,Metástases ósseas múltiplas,9.7,18.3,1,9,normal,normal,38.0,1,0,0,0
+304,Esquistossomose com falência hepática,9.4,30.0,9,0,sem andar,normal,40.4,1,1,0,0
+305,Doença de Lyme severa,14.9,21.7,5,4,limitada,baixo,40.3,0,0,0,0
+306,Problemas neurológicos degenerativos,5.6,19.3,4,2,sem andar,normal,39.6,0,0,1,0
+307,Hemorragia interna recorrente,9.7,43.4,8,7,normal,nenhum,38.6,1,5,0,0
+308,Glaucoma doloroso intratável,14.0,18.5,6,2,sem andar,normal,37.5,1,7,0,0
+309,Doença inflamatória intestinal severa,5.4,5.2,2,2,limitada,normal,39.6,0,0,1,0
+310,Complicações pós-operatórias fatais,3.0,37.5,5,1,limitada,normal,38.8,0,0,0,0
+311,Artrite severa intratável,14.6,6.9,6,0,limitada,normal,40.0,1,4,0,0
+312,Insuficiência renal crônica grave,6.0,19.9,9,7,normal,nenhum,39.4,1,1,0,0
+313,Tumores nasais inoperáveis,12.5,45.7,2,6,limitada,baixo,40.2,1,0,0,0
+314,Osteossarcoma metastático,4.4,41.8,5,7,sem andar,normal,37.8,1,0,0,0
+315,Anemia hemolítica autoimune,11.4,21.1,9,7,normal,nenhum,39.9,1,7,0,0
+316,Doença autoimune avançada,7.9,40.1,10,3,limitada,baixo,41.2,1,7,0,0
+317,Doença inflamatória intestinal severa,4.0,3.9,6,2,normal,nenhum,40.1,1,7,0,0
+318,Insuficiência hepática terminal,14.3,37.2,7,5,sem andar,normal,38.8,1,4,0,0
+319,Tumores mamários malignos inoperáveis,4.6,16.3,1,6,sem andar,nenhum,41.1,1,0,0,0
+320,Cegueira total e progressiva com dor,7.2,3.4,9,0,sem andar,baixo,39.3,1,5,0,0
+321,Toxicidade irreversível por medicamentos,11.4,23.6,2,8,limitada,normal,38.7,1,0,0,0
+322,Parvovirose grave,4.0,6.1,6,9,limitada,normal,38.0,1,7,0,0
+323,Sarcóide agressivo,1.1,21.1,3,10,normal,nenhum,37.7,1,0,0,0
+324,Pancreatite crônica grave,11.3,31.5,3,1,sem andar,baixo,40.2,0,0,1,0
+325,Dermatose autoimune,3.8,47.0,6,0,normal,normal,40.6,1,1,0,0
+326,Síndrome vestibular canina grave,11.7,48.7,1,4,sem andar,normal,37.5,0,0,1,0
+327,Histiocitose maligna,2.1,39.0,7,4,normal,baixo,37.8,1,6,0,0
+328,Falência de múltiplos órgãos,2.1,39.7,4,1,sem andar,normal,40.1,0,0,1,0
+329,Artrite severa intratável,14.1,19.9,0,8,sem andar,nenhum,41.4,1,0,0,0
+330,Meningite grave,14.5,11.4,2,8,limitada,baixo,40.8,1,0,0,0
+331,Problemas neurológicos degenerativos,10.6,19.1,10,9,limitada,nenhum,41.4,1,1,0,0
+332,Melanoma oral metastático,8.4,49.3,9,5,normal,nenhum,38.4,1,5,0,0
+333,Paralisia total,3.7,42.6,3,7,normal,baixo,38.1,1,0,0,0
+334,Sequelas neuromusculares irreversíveis,3.6,17.5,1,5,normal,baixo,40.1,0,0,0,0
+335,Doença periodontal extrema,6.4,24.5,5,5,normal,baixo,41.2,0,0,0,0
+336,Esquistossomose com falência hepática,5.2,6.9,5,2,sem andar,normal,40.3,0,0,0,0
+337,Epilepsia intratável,3.6,30.2,0,3,sem andar,baixo,39.8,0,0,1,0
+338,Histiocitose maligna,14.4,3.2,6,10,limitada,normal,38.0,1,5,0,0
+339,Leptospirose avançada,13.6,34.0,0,3,sem andar,nenhum,39.7,0,0,1,0
+340,Distrofia muscular,5.0,9.7,0,1,limitada,nenhum,38.3,0,0,1,0
+341,Parvovirose grave,9.3,36.2,0,3,sem andar,normal,41.3,0,0,1,0
+342,Infecção bacteriana sistêmica,13.9,36.0,8,2,sem andar,baixo,37.5,1,3,0,0
+343,Insuficiência hepática terminal,11.6,11.7,2,7,sem andar,normal,38.1,1,0,0,0
+344,Linfangiossarcoma,13.5,48.5,5,1,sem andar,nenhum,38.0,0,0,0,0
+345,Linfoma canino em estágio terminal,10.6,41.8,4,0,sem andar,baixo,41.0,0,0,1,0
+346,Doença degenerativa do disco vertebral,2.2,10.8,5,1,limitada,normal,39.0,0,0,0,0
+347,Epilepsia intratável,8.8,4.1,0,3,limitada,normal,41.2,0,0,1,0
+348,Doença do carrapato grave,9.2,34.6,5,7,sem andar,baixo,39.8,1,0,0,0
+349,Complicações pós-operatórias fatais,10.6,11.8,2,1,limitada,nenhum,40.3,0,0,1,0
+350,Sequelas de queimaduras extensas,3.0,39.2,4,1,limitada,nenhum,40.9,0,0,1,0
+351,Doença de Addison em crise,5.2,36.2,5,2,normal,normal,41.1,0,0,0,0
+352,Hemangiossarcoma avançado,14.2,15.3,7,0,normal,baixo,41.1,1,6,0,0
+353,Infecção fúngica sistêmica grave,10.6,15.2,3,3,sem andar,normal,41.5,0,0,1,0
+354,Epilepsia intratável,14.4,10.8,5,1,sem andar,baixo,37.6,0,0,0,0
+355,Histoplasmose disseminada,3.3,25.3,0,4,limitada,baixo,39.7,0,0,1,0
+356,Síndrome de Cushing descompensada,1.7,31.7,0,7,sem andar,nenhum,39.5,1,0,0,0
+357,Epilepsia intratável,14.2,15.4,8,4,limitada,nenhum,40.1,1,4,0,0
+358,Linfangiossarcoma,6.5,17.9,8,1,limitada,nenhum,39.1,1,1,0,0
+359,Leptospirose avançada,12.7,14.4,1,10,sem andar,normal,39.5,1,0,0,0
+360,Doença mitocondrial canina,8.4,38.5,3,3,normal,normal,37.9,0,0,1,0
+361,Problemas neurológicos degenerativos,13.7,37.5,10,7,normal,normal,40.1,1,2,0,0
+362,Síndrome vestibular canina grave,14.2,10.1,3,8,limitada,nenhum,41.3,1,0,0,0
+363,Leucemia canina terminal,6.5,37.5,8,0,normal,baixo,39.8,1,1,0,0
+364,Disfunção cognitiva avançada,13.4,34.3,3,2,sem andar,baixo,40.0,0,0,1,0
+365,Doença cardíaca congestiva avançada,10.6,48.0,8,0,limitada,normal,37.9,1,6,0,0
+366,Neoplasias pulmonares,14.0,48.2,6,4,normal,normal,37.8,1,2,0,0
+367,Sequelas graves de trauma craniano,9.9,10.5,4,6,normal,normal,39.1,1,0,0,0
+368,Leptospirose avançada,3.7,42.1,6,8,sem andar,baixo,39.1,1,1,0,0
+369,Sequelas neuromusculares irreversíveis,8.4,27.7,0,10,limitada,normal,39.3,1,0,0,0
+370,Esquistossomose com falência hepática,9.8,39.6,4,3,normal,normal,40.2,0,0,1,0
+371,Câncer terminal,3.5,20.9,4,4,normal,normal,39.7,0,0,1,0
+372,Doença do carrapato grave,4.6,19.8,9,8,sem andar,nenhum,39.7,1,2,0,1
+373,Miopatias degenerativas,7.7,22.4,5,4,limitada,baixo,40.2,0,0,0,0
+374,Peritonite infecciosa canina,3.8,40.5,7,0,limitada,nenhum,38.3,1,1,0,0
+375,Toxicidade irreversível por medicamentos,6.4,9.0,4,8,limitada,normal,37.9,1,0,0,0
+376,Neoplasias pulmonares,5.0,11.0,7,0,limitada,baixo,38.1,1,7,0,0
+377,Síndrome de Cushing descompensada,6.6,32.8,9,7,normal,baixo,38.2,1,2,0,0
+378,Esquistossomose com falência hepática,12.4,43.7,0,6,limitada,normal,40.9,1,0,0,0
+379,Hipertensão pulmonar grave,1.9,15.5,8,7,limitada,normal,37.8,1,2,0,0
+380,Histoplasmose disseminada,7.2,6.0,8,0,normal,baixo,40.8,1,6,0,0
+381,Doença renal policística,1.0,30.2,7,10,sem andar,baixo,41.0,1,7,0,0
+382,Leucemia canina terminal,6.9,22.2,0,10,limitada,baixo,40.2,1,0,0,0
+383,Retocolite ulcerativa canina,6.7,44.5,0,1,sem andar,normal,38.5,0,0,1,0
+384,Degeneração retiniana progressiva com dor,10.5,24.9,3,4,sem andar,baixo,38.0,0,0,1,0
+385,Metástases ósseas múltiplas,7.2,28.4,3,3,limitada,baixo,38.5,0,0,1,0
+386,Problemas neurológicos degenerativos,7.5,49.9,5,6,limitada,normal,39.3,1,0,0,0
+387,Surdez total associada a confusão,7.3,18.6,1,4,limitada,baixo,38.2,0,0,1,0
+388,Linfoma canino em estágio terminal,11.3,27.5,3,10,normal,baixo,41.5,1,0,0,0
+389,Osteossarcoma metastático,2.9,43.7,7,7,sem andar,baixo,37.7,1,3,0,0
+390,Doença mitocondrial canina,0.6,12.3,5,5,limitada,nenhum,40.8,0,0,0,0
+391,Glaucoma doloroso intratável,12.8,49.0,4,4,limitada,normal,38.9,0,0,1,0
+392,Glaucoma doloroso intratável,6.8,47.0,1,3,normal,baixo,41.1,0,0,1,0
+393,Artrite severa intratável,14.2,16.2,6,4,limitada,nenhum,38.7,1,5,0,0
+394,Metástases ósseas múltiplas,8.5,32.0,4,2,sem andar,normal,38.2,0,0,1,0
+395,Hemangiossarcoma avançado,5.0,41.2,0,3,sem andar,normal,39.6,0,0,1,0
+396,Complicações pós-operatórias fatais,11.2,35.1,2,0,limitada,nenhum,38.6,0,0,1,0
+397,Melanoma oral metastático,12.8,48.4,3,10,normal,baixo,37.7,1,0,0,0
+398,Metástases ósseas múltiplas,10.9,44.1,7,6,normal,baixo,38.8,1,7,0,0
+399,Doença do neurônio motor canino,7.3,37.3,5,7,sem andar,nenhum,40.6,1,0,0,0
+400,Insuficiência renal crônica grave,1.4,43.0,0,5,sem andar,normal,40.1,0,0,0,0
+401,Sequelas de queimaduras extensas,7.5,37.6,2,1,normal,normal,39.9,0,0,1,0
+402,Osteossarcoma metastático,1.2,7.3,5,3,sem andar,baixo,40.6,0,0,0,0
+403,Doença do neurônio motor canino,3.9,10.9,2,5,limitada,baixo,41.2,0,0,0,0
+404,Fraturas expostas múltiplas,9.3,20.6,1,8,normal,baixo,38.6,1,0,0,0
+405,Doença degenerativa das válvulas cardíacas,11.5,18.6,4,8,sem andar,normal,41.1,1,0,0,0
+406,Histoplasmose disseminada,9.5,24.6,10,8,normal,nenhum,40.3,1,2,0,0
+407,Leptospirose avançada,8.5,19.5,3,1,normal,baixo,38.3,0,0,1,0
+408,Toxicidade irreversível por medicamentos,13.5,28.4,7,0,normal,normal,37.9,1,4,0,0
+409,Doença do carrapato grave,4.5,33.1,9,6,limitada,normal,37.6,1,1,0,0
+410,Neoplasias pulmonares,8.8,42.7,1,8,sem andar,normal,40.9,1,0,0,0
+411,Insuficiência renal crônica grave,2.3,28.5,9,5,limitada,normal,40.9,1,2,0,0
+412,Dermatose autoimune,4.0,3.1,2,7,limitada,nenhum,41.4,1,0,0,0
+413,Sequelas de queimaduras extensas,9.0,31.5,8,4,sem andar,nenhum,38.6,1,2,0,0
+414,Parvovirose grave,9.7,41.7,10,8,normal,normal,38.6,1,4,0,0
+415,Displasia coxofemoral extrema,6.9,37.6,2,9,normal,nenhum,39.0,1,0,0,0
+416,Síndrome de má absorção severa,2.9,43.2,1,1,normal,baixo,37.7,0,0,1,0
+417,Síndrome vestibular canina grave,1.1,4.3,9,4,normal,baixo,39.4,1,3,0,0
+418,Insuficiência renal crônica grave,2.1,45.1,6,0,sem andar,nenhum,40.4,1,7,0,0
+419,Síndrome respiratória obstrutiva crônica,10.8,20.6,4,2,limitada,baixo,37.5,0,0,1,0
+420,Degeneração retiniana progressiva com dor,4.4,21.0,4,2,sem andar,baixo,39.7,0,0,1,0
+421,Encefalite canina grave,13.1,27.7,4,1,sem andar,baixo,37.7,0,0,1,0
+422,Blastomicose avançada,4.5,48.6,5,10,limitada,baixo,38.1,1,0,0,0
+423,Espondilose severa,2.9,47.8,6,1,normal,normal,39.6,1,3,0,0
+424,Esquistossomose com falência hepática,5.0,24.0,2,0,normal,nenhum,37.7,0,0,1,0
+425,Doença periodontal extrema,11.1,41.2,7,5,normal,nenhum,40.3,1,3,0,0
+426,Sequelas neuromusculares irreversíveis,13.6,5.3,9,8,sem andar,normal,38.7,1,1,0,1
+427,Espondilose severa,9.4,32.8,5,8,normal,nenhum,41.1,1,0,0,0
+428,Distrofia corneana,4.9,36.0,10,9,normal,baixo,37.9,1,1,0,0
+429,Tumores mamários malignos inoperáveis,5.6,18.9,7,7,limitada,baixo,39.0,1,2,0,0
+430,Hemangiossarcoma avançado,1.2,42.4,7,3,sem andar,baixo,41.4,1,4,0,0
+431,Osteossarcoma metastático,3.7,48.4,6,5,limitada,normal,40.0,1,4,0,0
+432,Epilepsia intratável,1.8,30.8,1,3,sem andar,normal,39.4,0,0,1,0
+433,Doença do carrapato grave,1.9,8.6,9,8,normal,nenhum,39.8,1,1,0,0
+434,Tumor cerebral inoperável,14.4,9.5,10,5,limitada,nenhum,38.5,1,6,0,0
+435,Luxação patelar grau IV,7.3,13.3,7,8,normal,baixo,40.3,1,7,0,0
+436,Doença autoimune avançada,13.6,41.0,10,5,limitada,baixo,41.2,1,3,0,0
+437,Infecção fúngica sistêmica grave,11.4,19.6,0,7,normal,normal,38.4,1,0,0,0
+438,Displasia coxofemoral extrema,5.9,11.2,5,0,sem andar,normal,41.4,0,0,0,0
+439,Parvovirose grave,2.6,39.2,4,9,sem andar,nenhum,39.2,1,0,0,0
+440,Disfunção cognitiva avançada,8.4,11.5,4,8,normal,nenhum,41.0,1,0,0,0
+441,Distrofia muscular,8.4,44.0,5,2,sem andar,normal,40.5,0,0,0,0
+442,Carcinoma anal sac adenocarcinoma,4.0,34.5,6,5,limitada,nenhum,39.6,1,3,0,0
+443,Anemia hemolítica autoimune,4.7,42.5,0,6,normal,baixo,40.7,1,0,0,0
+444,Linfangiossarcoma,6.1,34.8,3,9,limitada,baixo,38.4,1,0,0,0
+445,Doença mitral canina terminal,5.3,5.7,10,4,sem andar,normal,38.0,1,2,0,0
+446,Espondilose severa,4.1,17.7,7,7,limitada,nenhum,39.0,1,2,0,0
+447,Doença parasitária crônica grave,12.3,35.1,4,9,normal,normal,37.8,1,0,0,0
+448,Síndrome de Cushing descompensada,10.0,45.4,0,4,limitada,baixo,40.9,0,0,1,0
+449,Tumores nasais inoperáveis,6.8,17.0,5,5,limitada,baixo,39.6,0,0,0,0
+450,Diabetes mellitus descontrolado,10.0,36.6,3,3,normal,normal,37.8,0,0,1,0
+451,Cegueira total e progressiva com dor,8.0,46.9,8,0,normal,baixo,39.2,1,7,0,0
+452,Complicações pós-operatórias fatais,14.1,35.7,0,2,normal,baixo,38.2,0,0,1,0
+453,Fraturas expostas múltiplas,7.8,33.7,7,2,sem andar,normal,38.2,1,5,0,0
+454,Sequelas graves de trauma craniano,0.9,35.5,3,9,normal,normal,37.7,1,0,0,0
+455,Infecções resistentes hospitalares,7.7,43.3,10,10,limitada,nenhum,37.6,1,3,0,0
+456,Disfunção cognitiva avançada,6.7,43.1,4,8,limitada,baixo,39.6,1,0,0,0
+457,Torção gástrica reincidente,12.6,22.7,0,10,sem andar,baixo,40.7,1,0,0,0
+458,Câncer terminal,5.5,19.9,0,2,sem andar,baixo,39.7,0,0,1,0
+459,Linfadenopatia generalizada maligna,9.6,33.1,0,4,sem andar,baixo,38.8,0,0,1,0
+460,Doença degenerativa do disco vertebral,8.6,36.2,10,7,sem andar,normal,40.6,1,6,0,0
+461,Hidrocefalia avançada,14.0,29.3,4,6,normal,baixo,41.2,1,0,0,0
+462,Doença degenerativa do disco vertebral,1.6,30.3,3,6,limitada,baixo,39.0,1,0,0,0
+463,Doença do neurônio motor canino,12.5,10.0,4,3,sem andar,baixo,39.4,0,0,1,0
+464,Surdez total associada a confusão,10.2,48.3,8,3,normal,nenhum,40.0,1,7,0,0
+465,Leptospirose avançada,1.8,42.3,3,3,limitada,baixo,39.7,0,0,1,0
+466,Síndrome respiratória obstrutiva crônica,11.3,8.3,6,7,limitada,nenhum,41.0,1,5,0,0
+467,Doença periodontal extrema,1.4,20.4,9,8,sem andar,normal,39.4,1,5,0,1
+468,Doença do neurônio motor canino,12.3,7.6,1,7,sem andar,normal,38.2,1,0,0,0
+469,Pancreatite crônica grave,7.3,5.2,0,6,limitada,nenhum,41.2,1,0,0,0
+470,Neuropatia periférica grave,5.8,46.7,10,8,limitada,nenhum,39.4,1,4,0,0
+471,Hepatite crônica severa,2.6,23.7,5,0,sem andar,normal,41.4,0,0,0,0
+472,Peritonite infecciosa canina,13.6,7.3,8,1,normal,normal,39.9,1,5,0,0
+473,Surdez total associada a confusão,2.0,16.4,5,10,limitada,normal,38.8,1,0,0,0
+474,Infecção fúngica sistêmica grave,1.6,12.2,0,7,limitada,nenhum,37.9,1,0,0,0
+475,Glaucoma doloroso intratável,8.1,35.9,10,2,normal,nenhum,37.8,1,3,0,0
+476,Esquistossomose com falência hepática,0.7,38.5,10,4,normal,nenhum,39.3,1,2,0,0
+477,Distrofia corneana,14.9,36.7,9,4,limitada,nenhum,37.6,1,6,0,0
+478,Hiperadrenocorticismo não controlado,9.7,25.7,7,0,sem andar,normal,40.9,1,2,0,0
+479,Síndrome vestibular canina grave,15.0,41.1,9,10,limitada,baixo,38.4,1,7,0,0
+480,Melanoma oral metastático,3.2,7.2,7,0,limitada,normal,38.1,1,2,0,0
+481,Pancreatite crônica grave,1.8,14.5,7,10,normal,normal,40.4,1,2,0,0
+482,Pancreatite crônica grave,10.7,4.9,0,1,limitada,baixo,38.2,0,0,1,0
+483,Glaucoma doloroso intratável,1.2,16.7,9,2,limitada,normal,40.1,1,1,0,0
+484,Blastomicose avançada,8.9,29.4,2,1,sem andar,nenhum,38.5,0,0,1,0
+485,Criptorquidismo com câncer testicular,8.6,16.7,1,7,sem andar,baixo,38.0,1,0,0,0
+486,Síndrome de má absorção severa,2.2,6.5,9,2,sem andar,nenhum,40.2,1,4,0,0
+487,Câncer terminal,14.3,44.5,7,9,limitada,nenhum,39.4,1,2,0,0
+488,Síndrome de Chediak-Higashi canina,5.3,29.0,2,0,limitada,nenhum,41.1,0,0,1,0
+489,Doença de Addison em crise,1.6,29.8,2,4,normal,baixo,40.3,0,0,1,0
+490,Sarcóide agressivo,5.0,30.2,2,3,normal,baixo,40.5,0,0,1,0
+491,Complicações pós-operatórias fatais,8.7,25.5,1,8,normal,nenhum,40.4,1,0,0,0
+492,Insuficiência adrenal severa,9.5,39.5,8,3,limitada,normal,37.6,1,6,0,0
+493,Fibrosarcoma oral,11.2,10.2,8,9,limitada,normal,40.0,1,4,0,0
+494,Degeneração retiniana progressiva com dor,6.2,16.5,9,5,limitada,normal,39.8,1,1,0,0
+495,Fraturas expostas múltiplas,7.5,7.8,7,4,normal,baixo,41.5,1,3,0,0
+496,Displasia coxofemoral extrema,2.0,3.6,9,5,normal,nenhum,37.5,1,6,0,0
+497,Síndrome vestibular canina grave,6.8,26.8,2,0,limitada,nenhum,38.6,0,0,1,0
+498,Tumor cerebral inoperável,1.1,14.7,10,4,limitada,nenhum,38.7,1,1,0,0
+499,Esquistossomose com falência hepática,12.9,38.9,10,4,sem andar,baixo,40.4,1,3,0,0
+500,Síndrome de Chediak-Higashi canina,9.1,13.1,3,3,sem andar,nenhum,41.4,0,0,1,0
+501,Criptorquidismo com câncer testicular,14.6,9.8,7,8,limitada,baixo,38.1,1,6,0,0
+502,Hepatocarcinoma avançado,1.2,27.1,5,1,limitada,nenhum,40.5,0,0,0,0
+503,Doença mitocondrial canina,7.2,26.0,8,6,normal,nenhum,39.3,1,3,0,0
+504,Paralisia total,8.2,43.7,7,5,sem andar,normal,37.9,1,2,0,0
+505,Síndrome de má absorção severa,1.1,44.3,8,6,normal,nenhum,41.5,1,5,0,0
+506,Doença degenerativa do disco vertebral,9.5,9.8,9,9,limitada,normal,39.9,1,5,0,0
+507,Epilepsia intratável,1.1,7.4,4,5,sem andar,baixo,39.8,0,0,0,0
+508,Distrofia muscular,13.1,48.6,8,9,limitada,baixo,41.0,1,4,0,0
+509,Infecções resistentes hospitalares,8.6,46.2,2,4,normal,baixo,39.1,0,0,1,0
+510,Insuficiência renal crônica grave,6.0,44.0,4,2,normal,nenhum,37.6,0,0,1,0
+511,Infecção bacteriana sistêmica,8.2,35.9,9,8,normal,baixo,38.7,1,3,0,0
+512,Hidrocefalia avançada,11.0,16.6,6,3,sem andar,baixo,38.1,1,3,0,0
+513,Pancreatite crônica grave,9.8,42.4,0,6,sem andar,nenhum,39.9,1,0,0,0
+514,Histoplasmose disseminada,3.2,33.7,2,8,normal,normal,38.9,1,0,0,0
+515,Doença de Lyme severa,4.8,42.2,7,4,sem andar,baixo,37.9,1,1,0,0
+516,Colapso traqueal avançado,9.8,39.2,8,8,limitada,normal,40.7,1,5,0,0
+517,Hemangiossarcoma avançado,8.6,9.0,5,3,sem andar,baixo,38.7,0,0,0,0
+518,Doença degenerativa do disco vertebral,14.1,31.2,6,9,normal,nenhum,40.5,1,5,0,0
+519,Histoplasmose disseminada,9.4,27.0,9,4,sem andar,baixo,38.1,1,6,0,0
+520,Doença degenerativa do disco vertebral,3.2,14.2,6,6,limitada,nenhum,37.8,1,6,0,0
+521,Síndrome de Cushing descompensada,6.2,30.6,8,10,limitada,baixo,38.3,1,3,0,0
+522,Insuficiência renal crônica grave,2.8,31.8,8,7,limitada,nenhum,41.2,1,7,0,0
+523,Artrite severa intratável,13.9,42.8,5,3,limitada,normal,39.3,0,0,0,0
+524,Blastomicose avançada,3.4,10.6,8,4,normal,baixo,40.3,1,3,0,0
+525,Problemas neurológicos degenerativos,5.8,17.3,2,3,normal,nenhum,38.1,0,0,1,0
+526,Tumor cerebral inoperável,14.0,17.4,3,0,limitada,baixo,37.6,0,0,1,0
+527,Insuficiência renal crônica grave,3.6,13.9,0,8,sem andar,normal,40.9,1,0,0,0
+528,Disfunção cognitiva avançada,14.6,34.6,2,9,sem andar,normal,41.0,1,0,0,0
+529,Linfadenopatia generalizada maligna,2.3,42.3,6,0,limitada,baixo,39.0,1,4,0,0
+530,Doença inflamatória intestinal severa,5.4,3.5,9,3,normal,baixo,38.6,1,1,0,0
+531,Retocolite ulcerativa canina,7.2,4.9,9,6,normal,baixo,41.0,1,6,0,0
+532,Falência de múltiplos órgãos,0.6,44.4,8,3,normal,normal,39.9,1,2,0,0
+533,Doença mitral canina terminal,14.5,46.6,7,5,sem andar,normal,41.0,1,5,0,0
+534,Espondilose severa,2.7,39.2,1,10,limitada,normal,40.4,1,0,0,0
+535,Síndrome de Chediak-Higashi canina,8.4,9.0,4,7,sem andar,nenhum,39.8,1,0,0,0
+536,Cinomose em estágio terminal,13.2,8.3,6,5,normal,normal,39.8,1,4,0,0
+537,Miopatias degenerativas,13.7,40.2,0,7,normal,normal,40.0,1,0,0,0
+538,Distrofia corneana,2.3,9.5,6,1,normal,normal,39.9,1,4,0,0
+539,Tumor cerebral inoperável,10.3,47.5,0,8,sem andar,nenhum,39.1,1,0,0,0
+540,Insuficiência adrenal severa,3.6,4.8,2,5,limitada,normal,39.8,0,0,0,0
+541,Anemia hemolítica autoimune,6.2,10.1,8,5,sem andar,baixo,39.9,1,7,0,0
+542,Meningite grave,3.2,29.4,10,0,normal,normal,39.2,1,3,0,0
+543,Artrite severa intratável,9.3,47.0,4,10,sem andar,nenhum,41.4,1,0,0,0
+544,Carcinoma anal sac adenocarcinoma,3.3,21.0,9,1,sem andar,normal,38.0,1,5,0,0
+545,Complicações pós-operatórias fatais,2.5,42.3,7,6,normal,normal,38.8,1,2,0,0
+546,Doença do neurônio motor canino,0.6,36.1,2,0,limitada,nenhum,37.7,0,0,1,0
+547,Linfadenopatia generalizada maligna,2.4,6.5,0,5,limitada,nenhum,37.8,0,0,0,0
+548,Diabetes mellitus descontrolado,12.1,5.3,7,8,limitada,nenhum,40.5,1,1,0,0
+549,Paralisia total,11.9,20.8,8,5,normal,baixo,38.5,1,3,0,0
+550,Leptospirose avançada,7.0,36.8,3,2,sem andar,normal,40.5,0,0,1,0
+551,Metástases ósseas múltiplas,4.5,41.8,1,0,sem andar,normal,41.3,0,0,1,0
+552,Leptospirose avançada,7.7,46.9,10,9,sem andar,baixo,40.8,1,6,0,1
+553,Hemangiossarcoma avançado,7.3,27.1,4,1,sem andar,normal,40.2,0,0,1,0
+554,Sequelas de maus-tratos graves,12.5,27.0,9,2,limitada,normal,39.3,1,2,0,0
+555,Doença mitral canina terminal,13.9,12.2,3,4,normal,normal,39.6,0,0,1,0
+556,Hepatite crônica severa,5.1,22.6,7,2,normal,nenhum,40.2,1,7,0,0
+557,Osteossarcoma metastático,1.1,14.8,5,8,sem andar,baixo,39.0,1,0,0,0
+558,Síndrome de Wobbler avançada,6.4,14.7,1,0,normal,normal,38.8,0,0,1,0
+559,Paralisia total,1.0,4.3,5,7,normal,baixo,39.4,1,0,0,0
+560,Problemas neurológicos degenerativos,10.2,10.0,0,8,limitada,baixo,39.5,1,0,0,0
+561,Hemofilia grave,9.8,31.9,7,5,limitada,nenhum,37.6,1,5,0,0
+562,Fraturas expostas múltiplas,11.9,7.6,6,2,normal,normal,40.4,1,3,0,0
+563,Tumores cutâneos malignos disseminados,4.8,4.7,4,1,sem andar,baixo,38.9,0,0,1,0
+564,Hemangiossarcoma avançado,8.8,45.7,4,0,limitada,normal,39.7,0,0,1,0
+565,Neoplasias pulmonares,2.9,8.7,4,5,sem andar,nenhum,40.4,0,0,0,0
+566,Neoplasias pulmonares,2.3,2.5,5,0,sem andar,baixo,39.2,0,0,0,0
+567,Tumores cutâneos malignos disseminados,13.9,43.7,8,6,limitada,normal,40.2,1,6,0,0
+568,Insuficiência adrenal severa,3.3,38.1,5,5,limitada,nenhum,38.1,0,0,0,0
+569,Doença cardíaca congestiva avançada,10.7,16.5,3,2,sem andar,baixo,37.9,0,0,1,0
+570,Anemia hemolítica autoimune,6.4,49.5,7,10,sem andar,baixo,38.4,1,5,0,0
+571,Broncopneumonia crônica,4.4,49.8,7,10,sem andar,baixo,41.3,1,4,0,0
+572,Doença de Lyme severa,11.8,39.0,7,1,sem andar,baixo,39.0,1,2,0,0
+573,Insuficiência adrenal severa,13.9,13.1,3,4,sem andar,baixo,39.4,0,0,1,0
+574,Hemorragia interna recorrente,5.9,36.8,9,6,normal,nenhum,38.2,1,3,0,0
+575,Cegueira total e progressiva com dor,11.5,21.9,9,8,normal,normal,39.4,1,2,0,0
+576,Sequelas de maus-tratos graves,3.3,27.0,8,0,normal,normal,37.5,1,7,0,0
+577,Tumores cutâneos malignos disseminados,14.6,34.4,2,2,sem andar,normal,40.8,0,0,1,0
+578,Displasia coxofemoral extrema,11.6,2.7,10,10,limitada,normal,39.0,1,6,0,0
+579,Sequelas de maus-tratos graves,12.2,23.3,9,6,sem andar,nenhum,37.7,1,4,0,0
+580,Hipotireoidismo refratário,9.0,39.0,4,6,normal,baixo,38.7,1,0,0,0
+581,Peritonite infecciosa canina,13.6,41.3,7,7,normal,normal,41.0,1,3,0,0
+582,Síndrome de Chediak-Higashi canina,5.8,18.9,4,10,limitada,normal,41.1,1,0,0,0
+583,Tromboembolismo pulmonar canino,14.5,33.4,3,3,sem andar,normal,40.9,0,0,1,0
+584,Doença do neurônio motor canino,5.9,21.8,10,4,limitada,normal,38.7,1,5,0,0
+585,Hemangiossarcoma avançado,13.2,27.6,3,7,sem andar,normal,40.5,1,0,0,0
+586,Artrite severa intratável,8.4,20.5,10,3,normal,baixo,40.3,1,4,0,0
+587,Doença de Lyme severa,4.1,47.5,6,8,normal,nenhum,41.2,1,3,0,0
+588,Hipotireoidismo refratário,7.1,4.1,1,2,limitada,nenhum,38.5,0,0,1,0
+589,Fibrosarcoma oral,1.1,15.7,7,10,sem andar,normal,39.0,1,2,0,0
+590,Displasia coxofemoral extrema,12.4,47.5,2,7,sem andar,normal,38.4,1,0,0,0
+591,Infecções resistentes hospitalares,1.0,32.5,3,8,limitada,normal,38.1,1,0,0,0
+592,Doença cardíaca congestiva avançada,14.5,12.5,8,0,sem andar,nenhum,39.6,1,7,0,0
+593,Síndrome vestibular canina grave,9.2,13.0,1,9,sem andar,baixo,37.8,1,0,0,0
+594,Pancreatite crônica grave,15.0,45.1,4,7,sem andar,normal,39.5,1,0,0,0
+595,Esofagite grave crônica,0.9,23.8,1,0,sem andar,baixo,41.0,0,0,1,0
+596,Tumores nasais inoperáveis,4.9,8.9,0,4,limitada,baixo,40.6,0,0,1,0
+597,Doença mitral canina terminal,3.9,49.6,10,2,limitada,baixo,40.5,1,4,0,0
+598,Doença periodontal extrema,4.9,13.8,2,5,sem andar,baixo,40.0,0,0,0,0
+599,Linfangiossarcoma,6.1,20.0,1,8,sem andar,normal,40.1,1,0,0,0
+600,Tumor cerebral inoperável,7.6,32.7,3,10,normal,baixo,38.2,1,0,0,0
+601,Degeneração retiniana progressiva com dor,4.1,4.7,3,2,sem andar,baixo,38.4,0,0,1,0
+602,Distrofia corneana,3.6,19.4,0,3,sem andar,baixo,41.5,0,0,1,0
+603,Doença mitocondrial canina,0.7,3.3,2,6,sem andar,nenhum,38.3,1,0,0,0
+604,Meningite grave,7.2,39.0,5,3,normal,nenhum,41.3,0,0,0,0
+605,Leucemia canina terminal,6.3,12.4,1,1,limitada,normal,38.2,0,0,1,0
+606,Hemofilia grave,8.0,39.6,0,2,normal,nenhum,38.5,0,0,1,0
+607,Meningite grave,3.5,18.4,9,2,normal,normal,38.3,1,3,0,0
+608,Tumor cerebral inoperável,7.9,6.8,6,10,sem andar,normal,39.8,1,7,0,0
+609,Insuficiência renal crônica grave,9.8,29.3,1,4,normal,baixo,37.7,0,0,1,0
+610,Doença degenerativa das válvulas cardíacas,1.1,19.9,0,6,limitada,normal,39.3,1,0,0,0
+611,Síndrome de má absorção severa,7.3,29.2,10,3,limitada,nenhum,38.6,1,4,0,0
+612,Hipotireoidismo refratário,13.5,21.2,5,3,limitada,baixo,37.6,0,0,0,0
+613,Tumores nasais inoperáveis,1.7,45.5,10,5,normal,nenhum,40.0,1,2,0,0
+614,Encefalite canina grave,6.0,47.8,5,1,limitada,baixo,41.3,0,0,0,0
+615,Doença mitral canina terminal,3.2,22.0,8,9,sem andar,baixo,38.5,1,6,0,1
+616,Dirofilariose grave (verme do coração),8.1,22.5,1,0,sem andar,baixo,37.6,0,0,1,0
+617,Câncer terminal,13.7,35.7,2,6,limitada,baixo,39.7,1,0,0,0
+618,Doença inflamatória intestinal severa,6.2,39.2,4,5,sem andar,nenhum,39.8,0,0,0,0
+619,Toxicidade irreversível por medicamentos,10.2,2.1,3,9,normal,normal,38.4,1,0,0,0
+620,Neuropatia periférica grave,2.6,22.8,0,2,normal,nenhum,39.8,0,0,1,0
+621,Anemia hemolítica autoimune,1.5,23.5,4,9,limitada,normal,39.9,1,0,0,0
+622,Torção gástrica reincidente,12.7,6.7,9,0,sem andar,baixo,39.8,1,3,0,0
+623,Cinomose em estágio terminal,15.0,34.1,4,10,normal,baixo,38.0,1,0,0,0
+624,Parvovirose grave,6.3,41.7,6,4,limitada,normal,38.5,1,2,0,0
+625,Distrofia muscular,9.0,7.5,10,10,limitada,normal,40.5,1,2,0,0
+626,Tumores mamários malignos inoperáveis,12.1,18.9,9,3,limitada,normal,40.9,1,2,0,0
+627,Cegueira total e progressiva com dor,0.9,4.0,0,5,limitada,nenhum,38.5,0,0,0,0
+628,Parvovirose grave,3.3,17.7,8,3,sem andar,normal,40.3,1,3,0,0
+629,Leucemia canina terminal,8.8,6.8,4,9,sem andar,normal,41.4,1,0,0,0
+630,Problemas neurológicos degenerativos,9.4,45.0,0,10,limitada,nenhum,41.2,1,0,0,0
+631,Anemia hemolítica autoimune,11.8,16.9,3,10,normal,nenhum,39.5,1,0,0,0
+632,Meningite grave,3.9,46.2,5,1,limitada,normal,41.1,0,0,0,0
+633,Linfangiossarcoma,13.0,9.8,3,7,limitada,normal,38.2,1,0,0,0
+634,Doença autoimune avançada,8.7,22.1,10,6,normal,baixo,37.7,1,6,0,0
+635,Sarcóide agressivo,10.7,44.1,1,2,sem andar,nenhum,37.7,0,0,1,0
+636,Encefalite canina grave,5.5,16.9,0,0,sem andar,baixo,39.5,0,0,1,0
+637,Neoplasias pulmonares,13.7,18.2,5,6,normal,baixo,41.1,1,0,0,0
+638,Toxicidade irreversível por medicamentos,10.1,44.6,10,0,limitada,normal,38.6,1,6,0,0
+639,Hemorragia interna recorrente,13.5,16.8,10,9,limitada,baixo,39.3,1,5,0,0
+640,Tumor cerebral inoperável,11.5,44.6,10,9,sem andar,nenhum,40.8,1,2,0,1
+641,Leptospirose avançada,7.4,47.4,4,2,sem andar,baixo,39.2,0,0,1,0
+642,Carcinoma anal sac adenocarcinoma,2.2,23.5,7,5,normal,nenhum,37.9,1,5,0,0
+643,Doença do carrapato grave,12.3,36.0,2,0,normal,nenhum,39.0,0,0,1,0
+644,Cinomose em estágio terminal,9.3,21.5,10,1,sem andar,nenhum,37.7,1,3,0,0
+645,Miopatias degenerativas,10.0,30.9,9,3,normal,nenhum,41.2,1,4,0,0
+646,Broncopneumonia crônica,14.5,8.6,5,10,sem andar,nenhum,39.9,1,0,0,0
+647,Sequelas de queimaduras extensas,5.8,43.8,1,8,normal,normal,39.3,1,0,0,0
+648,Neoplasias pulmonares,11.2,30.7,7,10,limitada,baixo,38.9,1,5,0,0
+649,Doença renal policística,12.7,2.9,1,9,limitada,baixo,39.5,1,0,0,0
+650,Torção gástrica reincidente,4.0,28.2,5,6,limitada,baixo,40.1,1,0,0,0
+651,Retocolite ulcerativa canina,8.4,20.8,10,3,normal,baixo,41.1,1,1,0,0
+652,Tumores cutâneos malignos disseminados,10.8,16.1,7,7,sem andar,baixo,41.1,1,3,0,0
+653,Sarcóide agressivo,2.8,30.7,2,4,normal,baixo,37.8,0,0,1,0
+654,Parvovirose grave,11.9,16.8,3,8,sem andar,nenhum,40.0,1,0,0,0
+655,Distrofia muscular,12.1,6.3,1,8,limitada,nenhum,39.8,1,0,0,0
+656,Hipotireoidismo refratário,3.6,45.0,9,2,normal,nenhum,37.8,1,6,0,0
+657,Esquistossomose com falência hepática,1.0,14.5,1,7,normal,baixo,38.6,1,0,0,0
+658,Hipertensão pulmonar grave,8.8,41.4,3,3,limitada,normal,41.1,0,0,1,0
+659,Problemas neurológicos degenerativos,5.8,14.5,5,3,sem andar,baixo,38.7,0,0,0,0
+660,Luxação patelar grau IV,4.9,32.1,7,4,normal,nenhum,39.1,1,3,0,0
+661,Doença renal policística,14.5,9.5,0,6,normal,nenhum,37.9,1,0,0,0
+662,Infecções resistentes hospitalares,6.9,20.8,1,3,limitada,normal,39.0,0,0,1,0
+663,Epilepsia intratável,6.4,32.9,0,5,normal,baixo,38.7,0,0,0,0
+664,Síndrome de Wobbler avançada,3.7,28.1,6,8,sem andar,baixo,39.8,1,1,0,0
+665,Distrofia muscular,7.1,15.4,0,5,sem andar,nenhum,40.0,0,0,0,0
+666,Síndrome de má absorção severa,12.8,41.1,8,5,normal,nenhum,39.4,1,4,0,0
+667,Paralisia total,3.8,10.5,10,6,sem andar,normal,39.1,1,3,0,0
+668,Paralisia total,5.1,8.9,3,7,normal,normal,37.8,1,0,0,0
+669,Infecção bacteriana sistêmica,8.5,46.1,1,6,limitada,normal,39.9,1,0,0,0
+670,Doença renal policística,8.0,46.1,5,8,normal,nenhum,39.4,1,0,0,0
+671,Histoplasmose disseminada,6.3,11.3,9,4,sem andar,baixo,40.5,1,1,0,0
+672,Doença cardíaca congestiva avançada,10.3,20.6,5,1,normal,normal,40.9,0,0,0,0
+673,Doença autoimune avançada,2.1,11.1,3,10,limitada,nenhum,39.2,1,0,0,0
+674,Hemofilia grave,9.1,44.0,7,0,sem andar,nenhum,40.3,1,4,0,0
+675,Tumores mamários malignos inoperáveis,9.8,27.4,0,10,limitada,normal,40.4,1,0,0,0
+676,Histoplasmose disseminada,14.8,34.5,4,3,sem andar,normal,41.4,0,0,1,0
+677,Tumores nasais inoperáveis,6.7,47.6,1,1,sem andar,baixo,37.7,0,0,1,0
+678,Pancreatite crônica grave,3.1,37.6,4,7,sem andar,normal,39.2,1,0,0,0
+679,Dirofilariose grave (verme do coração),7.5,42.0,2,9,sem andar,baixo,38.3,1,0,0,0
+680,Blastomicose avançada,2.0,3.4,1,1,normal,baixo,39.9,0,0,1,0
+681,Doença parasitária crônica grave,3.1,30.9,7,9,sem andar,baixo,38.7,1,6,0,0
+682,Neuropatia periférica grave,1.4,22.6,5,4,sem andar,baixo,39.3,0,0,0,0
+683,Glaucoma doloroso intratável,7.9,27.4,5,2,normal,nenhum,39.9,0,0,0,0
+684,Metástases ósseas múltiplas,11.5,30.8,8,6,sem andar,baixo,40.1,1,1,0,0
+685,Síndrome vestibular canina grave,9.3,45.9,8,10,limitada,normal,40.8,1,1,0,0
+686,Degeneração retiniana progressiva com dor,11.1,28.8,6,6,sem andar,normal,40.0,1,2,0,0
+687,Colapso traqueal avançado,11.1,20.8,8,7,normal,nenhum,40.3,1,6,0,0
+688,Artrite severa intratável,7.7,16.9,10,2,sem andar,baixo,41.4,1,1,0,0
+689,Infecção fúngica sistêmica grave,5.1,34.4,8,7,normal,nenhum,38.8,1,7,0,0
+690,Hemorragia interna recorrente,5.1,35.4,2,10,normal,nenhum,37.8,1,0,0,0
+691,Surdez total associada a confusão,14.7,20.3,1,1,limitada,normal,38.0,0,0,1,0
+692,Broncopneumonia crônica,6.1,24.5,10,5,limitada,nenhum,39.7,1,6,0,0
+693,Linfadenopatia generalizada maligna,5.8,42.1,2,5,limitada,nenhum,40.2,0,0,0,0
+694,Síndrome de Wobbler avançada,7.7,24.7,8,3,normal,normal,38.4,1,7,0,0
+695,Retocolite ulcerativa canina,3.2,16.0,3,2,limitada,nenhum,40.2,0,0,1,0
+696,Tumores nasais inoperáveis,12.6,7.2,6,4,normal,baixo,40.5,1,3,0,0
+697,Síndrome respiratória obstrutiva crônica,6.4,24.2,3,2,normal,nenhum,39.6,0,0,1,0
+698,Meningite grave,12.1,22.6,0,5,normal,baixo,41.4,0,0,0,0
+699,Linfangiossarcoma,14.3,18.5,6,9,limitada,baixo,40.1,1,7,0,0
+700,Melanoma oral metastático,10.5,39.6,6,8,normal,nenhum,39.4,1,2,0,0
+701,Hemangiossarcoma avançado,5.9,47.3,3,8,sem andar,baixo,37.7,1,0,0,0
+702,Linfangiossarcoma,7.5,48.1,10,10,sem andar,baixo,41.2,1,2,0,1
+703,Cegueira total e progressiva com dor,7.4,47.9,0,10,sem andar,nenhum,40.2,1,0,0,0
+704,Esofagite grave crônica,9.9,47.4,8,7,limitada,normal,38.5,1,6,0,0
+705,Doença mitocondrial canina,0.9,36.5,0,3,normal,nenhum,38.5,0,0,1,0
+706,Glaucoma doloroso intratável,1.7,6.9,7,0,normal,normal,40.3,1,3,0,0
+707,Sarcóide agressivo,1.3,49.2,2,0,limitada,normal,40.9,0,0,1,0
+708,Sequelas de queimaduras extensas,2.2,7.2,1,9,normal,nenhum,38.5,1,0,0,0
+709,Glaucoma doloroso intratável,7.2,28.7,7,8,normal,baixo,39.8,1,3,0,0
+710,Hemofilia grave,7.1,33.2,7,7,sem andar,nenhum,39.2,1,3,0,0
+711,Esofagite grave crônica,12.8,15.2,6,5,normal,normal,37.5,1,6,0,0
+712,Distrofia muscular,8.8,49.7,5,9,sem andar,nenhum,38.0,1,0,0,0
+713,Síndrome de má absorção severa,14.7,10.2,10,3,limitada,normal,38.9,1,4,0,0
+714,Surdez total associada a confusão,7.7,45.7,2,10,limitada,normal,41.5,1,0,0,0
+715,Doença mitocondrial canina,8.0,40.5,1,2,normal,normal,40.1,0,0,1,0
+716,Sequelas de queimaduras extensas,7.9,40.4,8,3,limitada,nenhum,40.8,1,2,0,0
+717,Epilepsia intratável,13.0,48.4,0,1,limitada,nenhum,37.9,0,0,1,0
+718,Hidrocefalia avançada,12.4,9.8,9,3,limitada,nenhum,38.7,1,1,0,0
+719,Metástases ósseas múltiplas,1.7,15.9,3,6,limitada,normal,39.9,1,0,0,0
+720,Doença mitral canina terminal,7.7,25.2,9,2,limitada,normal,39.0,1,1,0,0
+721,Hemangiossarcoma avançado,10.3,27.9,10,5,limitada,baixo,40.1,1,4,0,0
+722,Neuropatia periférica grave,9.9,40.5,1,8,normal,normal,37.9,1,0,0,0
+723,Surdez total associada a confusão,1.5,38.2,10,7,normal,baixo,40.0,1,2,0,0
+724,Doença periodontal extrema,9.9,44.2,1,10,limitada,baixo,37.7,1,0,0,0
+725,Paralisia total,14.1,47.5,5,4,sem andar,normal,39.1,0,0,0,0
+726,Câncer terminal,12.9,19.9,4,5,sem andar,baixo,40.8,0,0,0,0
+727,Linfadenopatia generalizada maligna,10.4,14.8,4,0,normal,baixo,38.9,0,0,1,0
+728,Doença de Addison em crise,8.1,42.3,5,10,limitada,normal,38.7,1,0,0,0
+729,Sarcóide agressivo,8.5,12.1,3,5,sem andar,nenhum,41.2,0,0,0,0
+730,Linfangiossarcoma,14.6,45.2,3,10,limitada,baixo,39.3,1,0,0,0
+731,Câncer terminal,9.2,28.9,4,6,normal,nenhum,39.2,1,0,0,0
+732,Miopatias degenerativas,10.5,9.3,0,1,normal,normal,38.0,0,0,1,0
+733,Fibrosarcoma oral,2.8,24.2,6,3,sem andar,normal,41.1,1,5,0,0
+734,Doença mitral canina terminal,0.9,30.8,6,0,normal,baixo,37.6,1,5,0,0
+735,Sequelas de queimaduras extensas,2.3,11.7,0,0,sem andar,nenhum,41.0,0,0,1,0
+736,Síndrome vestibular canina grave,13.5,42.9,2,8,sem andar,nenhum,39.0,1,0,0,0
+737,Cinomose em estágio terminal,7.4,19.2,6,2,sem andar,nenhum,41.2,1,3,0,0
+738,Cinomose em estágio terminal,8.3,14.1,0,10,limitada,nenhum,39.1,1,0,0,0
+739,Problemas neurológicos degenerativos,1.2,8.3,8,7,sem andar,baixo,41.0,1,2,0,0
+740,Doença periodontal extrema,6.6,17.4,4,6,limitada,normal,40.0,1,0,0,0
+741,Parvovirose grave,8.9,14.4,10,2,normal,nenhum,41.0,1,5,0,0
+742,Miopatias degenerativas,10.5,42.7,9,9,normal,nenhum,38.9,1,7,0,0
+743,Fibrosarcoma oral,10.0,41.4,8,4,sem andar,normal,40.9,1,7,0,0
+744,Doença inflamatória intestinal severa,2.2,44.8,8,9,normal,baixo,40.8,1,6,0,0
+745,Degeneração retiniana progressiva com dor,10.8,33.1,7,0,sem andar,baixo,38.5,1,3,0,0
+746,Linfangiossarcoma,2.6,40.4,3,6,sem andar,normal,41.3,1,0,0,0
+747,Cinomose em estágio terminal,8.3,18.2,2,2,sem andar,baixo,40.9,0,0,1,0
+748,Parvovirose grave,8.6,20.0,6,8,limitada,nenhum,38.3,1,6,0,0
+749,Leucemia canina terminal,7.0,20.7,2,2,limitada,nenhum,38.2,0,0,1,0
+750,Tromboembolismo pulmonar canino,12.7,36.6,4,0,normal,baixo,37.8,0,0,1,0
+751,Hipertensão pulmonar grave,12.1,45.4,9,6,limitada,nenhum,39.0,1,6,0,0
+752,Doença parasitária crônica grave,13.8,11.8,9,6,normal,nenhum,38.3,1,2,0,0
+753,Tumor de células redondas maligno,11.5,10.8,1,2,sem andar,nenhum,41.1,0,0,1,0
+754,Doença renal policística,9.5,10.3,3,3,limitada,nenhum,41.2,0,0,1,0
+755,Displasia coxofemoral extrema,6.2,3.8,1,3,sem andar,normal,38.4,0,0,1,0
+756,Doença cardíaca congestiva avançada,8.8,27.7,7,9,limitada,normal,39.1,1,2,0,0
+757,Tumores nasais inoperáveis,6.2,2.4,4,5,normal,nenhum,39.3,0,0,0,0
+758,Distrofia muscular,6.7,29.3,6,5,normal,baixo,37.5,1,3,0,0
+759,Sequelas de maus-tratos graves,1.0,29.6,10,9,sem andar,normal,37.8,1,5,0,1
+760,Sequelas de maus-tratos graves,10.0,45.5,7,6,limitada,baixo,39.3,1,2,0,0
+761,Sarcóide agressivo,14.3,28.5,6,0,normal,nenhum,39.4,1,2,0,0
+762,Infecção bacteriana sistêmica,14.5,12.4,2,6,limitada,normal,40.6,1,0,0,0
+763,Surdez total associada a confusão,6.5,21.8,2,10,sem andar,nenhum,40.0,1,0,0,0
+764,Metástases ósseas múltiplas,5.5,16.6,2,7,normal,baixo,40.3,1,0,0,0
+765,Síndrome de Cushing descompensada,12.0,32.7,10,4,normal,normal,40.6,1,1,0,0
+766,Insuficiência hepática terminal,2.4,8.9,0,1,normal,nenhum,40.3,0,0,1,0
+767,Esofagite grave crônica,7.1,16.9,2,0,limitada,normal,40.5,0,0,1,0
+768,Síndrome de má absorção severa,6.4,25.7,6,0,normal,nenhum,39.4,1,3,0,0
+769,Osteossarcoma metastático,1.2,41.2,9,8,normal,baixo,39.4,1,6,0,0
+770,Hipotireoidismo refratário,1.8,33.9,1,9,limitada,baixo,40.7,1,0,0,0
+771,Dermatose autoimune,2.7,19.6,3,2,limitada,baixo,41.1,0,0,1,0
+772,Complicações pós-operatórias fatais,7.7,36.6,2,3,limitada,nenhum,40.1,0,0,1,0
+773,Anemia hemolítica autoimune,9.4,29.3,9,6,normal,normal,39.0,1,2,0,0
+774,Insuficiência renal crônica grave,10.9,40.2,5,2,normal,baixo,38.5,0,0,0,0
+775,Fibrosarcoma oral,14.5,8.8,1,8,limitada,baixo,38.0,1,0,0,0
+776,Pancreatite crônica grave,1.8,12.9,7,4,sem andar,baixo,40.5,1,6,0,0
+777,Tumores nasais inoperáveis,14.5,34.0,6,10,normal,nenhum,40.8,1,3,0,0
+778,Encefalite canina grave,4.4,49.6,6,7,limitada,normal,39.9,1,1,0,0
+779,Anemia hemolítica autoimune,6.0,45.0,0,1,sem andar,baixo,37.7,0,0,1,0
+780,Hemorragia interna recorrente,10.0,39.1,4,5,limitada,baixo,40.8,0,0,0,0
+781,Síndrome respiratória obstrutiva crônica,10.9,47.9,2,8,limitada,nenhum,37.8,1,0,0,0
+782,Problemas neurológicos degenerativos,1.9,48.9,0,9,sem andar,baixo,41.3,1,0,0,0
+783,Infecção fúngica sistêmica grave,3.0,4.7,4,6,normal,normal,39.6,1,0,0,0
+784,Hemangiossarcoma avançado,4.1,8.7,2,7,limitada,nenhum,38.4,1,0,0,0
+785,Esquistossomose com falência hepática,1.3,28.2,10,10,normal,normal,39.4,1,1,0,0
+786,Metástases ósseas múltiplas,3.2,32.0,6,1,limitada,normal,38.2,1,3,0,0
+787,Toxicidade irreversível por medicamentos,8.5,49.2,5,8,limitada,nenhum,37.5,1,0,0,0
+788,Fraturas múltiplas irreparáveis,11.4,26.7,6,10,sem andar,normal,40.0,1,4,0,0
+789,Toxicidade irreversível por medicamentos,3.7,37.2,7,0,limitada,baixo,40.0,1,2,0,0
+790,Doença renal policística,2.4,5.1,7,9,limitada,nenhum,40.9,1,2,0,0
+791,Linfoma canino em estágio terminal,10.6,42.5,2,8,sem andar,baixo,39.9,1,0,0,0
+792,Anemia hemolítica autoimune,12.8,47.3,1,2,normal,nenhum,40.6,0,0,1,0
+793,Neoplasias pulmonares,1.7,8.2,3,0,limitada,baixo,41.4,0,0,1,0
+794,Criptorquidismo com câncer testicular,9.0,47.4,3,7,limitada,baixo,38.9,1,0,0,0
+795,Fibrosarcoma oral,10.0,13.3,10,5,sem andar,baixo,39.5,1,1,0,0
+796,Luxação patelar grau IV,2.3,39.4,5,9,normal,nenhum,39.7,1,0,0,0
+797,Pancreatite crônica grave,14.9,37.7,4,0,normal,nenhum,41.2,0,0,1,0
+798,Hepatocarcinoma avançado,10.1,2.7,3,6,limitada,nenhum,38.3,1,0,0,0
+799,Tumor de células redondas maligno,2.0,40.2,6,9,limitada,normal,40.1,1,3,0,0
+800,Fibrosarcoma oral,5.6,34.0,3,8,sem andar,nenhum,38.1,1,0,0,0
+801,Hemangiossarcoma avançado,5.4,9.5,6,8,sem andar,baixo,38.8,1,1,0,0
+802,Melanoma oral metastático,10.3,21.9,1,7,sem andar,nenhum,39.0,1,0,0,0
+803,Pancreatite crônica grave,9.1,44.6,0,1,limitada,nenhum,41.1,0,0,1,0
+804,Colapso traqueal avançado,4.3,37.6,3,0,limitada,baixo,39.3,0,0,1,0
+805,Luxação patelar grau IV,3.2,28.9,10,0,limitada,baixo,41.1,1,7,0,0
+806,Doença do neurônio motor canino,0.7,17.3,3,4,limitada,nenhum,37.8,0,0,1,0
+807,Sequelas de queimaduras extensas,6.5,18.7,2,1,limitada,nenhum,39.1,0,0,1,0
+808,Hepatite crônica severa,14.6,20.9,10,1,limitada,baixo,39.2,1,6,0,0
+809,Degeneração retiniana progressiva com dor,11.8,8.9,3,2,limitada,nenhum,38.8,0,0,1,0
+810,Displasia coxofemoral extrema,10.6,26.2,9,5,sem andar,normal,40.9,1,4,0,0
+811,Diabetes mellitus descontrolado,13.7,20.5,10,10,sem andar,baixo,40.7,1,2,0,1
+812,Câncer terminal,1.0,3.0,8,7,limitada,nenhum,39.4,1,4,0,0
+813,Doença de Lyme severa,7.8,43.1,0,4,limitada,baixo,38.9,0,0,1,0
+814,Dermatose autoimune,6.2,11.8,4,0,limitada,normal,37.6,0,0,1,0
+815,Neuropatia periférica grave,4.2,32.2,1,1,sem andar,nenhum,41.2,0,0,1,0
+816,Meningite grave,12.1,46.7,5,4,normal,baixo,38.8,0,0,0,0
+817,Síndrome de má absorção severa,10.7,12.0,7,6,sem andar,normal,40.4,1,7,0,0
+818,Dermatose autoimune,7.3,21.2,1,2,limitada,nenhum,40.0,0,0,1,0
+819,Paralisia total,12.2,29.2,10,2,normal,normal,38.8,1,5,0,0
+820,Doença cardíaca congestiva avançada,1.5,46.0,6,1,sem andar,nenhum,41.2,1,4,0,0
+821,Doença mitocondrial canina,11.8,5.7,6,9,limitada,nenhum,38.7,1,2,0,0
+822,Esofagite grave crônica,0.7,4.1,1,0,normal,baixo,39.4,0,0,1,0
+823,Criptorquidismo com câncer testicular,4.2,20.5,0,5,sem andar,baixo,38.2,0,0,0,0
+824,Doença degenerativa das válvulas cardíacas,6.9,15.3,2,5,limitada,normal,40.0,0,0,0,0
+825,Síndrome respiratória obstrutiva crônica,3.1,39.2,5,6,limitada,nenhum,37.8,1,0,0,0
+826,Displasia coxofemoral extrema,6.6,16.8,3,2,sem andar,normal,38.2,0,0,1,0
+827,Cegueira total e progressiva com dor,12.7,31.9,6,10,normal,normal,39.8,1,2,0,0
+828,Luxação patelar grau IV,7.0,36.8,2,4,normal,baixo,40.6,0,0,1,0
+829,Retocolite ulcerativa canina,2.8,39.8,10,2,limitada,baixo,39.9,1,2,0,0
+830,Doença autoimune avançada,13.0,24.6,2,2,sem andar,baixo,39.7,0,0,1,0
+831,Neuropatia periférica grave,0.7,44.8,1,6,limitada,nenhum,38.8,1,0,0,0
+832,Linfoma canino em estágio terminal,14.3,13.4,2,10,sem andar,nenhum,38.4,1,0,0,0
+833,Dirofilariose grave (verme do coração),5.2,46.5,2,5,limitada,normal,41.3,0,0,0,0
+834,Esquistossomose com falência hepática,14.1,13.2,10,7,normal,nenhum,41.2,1,5,0,0
+835,Linfadenopatia generalizada maligna,1.3,15.1,0,8,normal,normal,38.7,1,0,0,0
+836,Doença autoimune avançada,1.4,13.8,9,6,sem andar,nenhum,37.8,1,4,0,0
+837,Síndrome de má absorção severa,7.4,42.9,5,5,sem andar,normal,39.8,0,0,0,0
+838,Tumores cutâneos malignos disseminados,14.6,49.5,9,4,limitada,baixo,41.4,1,2,0,0
+839,Carcinoma anal sac adenocarcinoma,14.1,38.4,7,10,normal,baixo,39.0,1,2,0,0
+840,Doença do neurônio motor canino,2.3,38.6,6,3,limitada,normal,38.9,1,6,0,0
+841,Problemas neurológicos degenerativos,1.3,18.5,8,7,sem andar,normal,40.9,1,6,0,0
+842,Torção gástrica reincidente,8.9,27.0,9,3,normal,nenhum,39.8,1,4,0,0
+843,Tumor de células redondas maligno,12.9,43.3,10,5,limitada,baixo,37.8,1,4,0,0
+844,Parvovirose grave,14.9,37.3,7,4,sem andar,normal,37.7,1,3,0,0
+845,Doença do neurônio motor canino,8.2,3.9,2,0,limitada,baixo,40.3,0,0,1,0
+846,Meningite grave,7.3,44.2,7,2,limitada,baixo,39.4,1,5,0,0
+847,Neoplasias pulmonares,8.9,34.7,0,5,limitada,nenhum,40.2,0,0,0,0
+848,Doença de Addison em crise,5.6,14.9,3,5,sem andar,normal,38.2,0,0,0,0
+849,Doença periodontal extrema,8.5,14.0,9,2,sem andar,nenhum,37.6,1,4,0,0
+850,Doença cardíaca congestiva avançada,4.9,32.3,1,2,normal,nenhum,41.5,0,0,1,0
+851,Anemia hemolítica autoimune,12.8,39.0,6,1,sem andar,baixo,41.0,1,2,0,0
+852,Sequelas de queimaduras extensas,3.2,32.1,4,5,normal,nenhum,38.9,0,0,0,0
+853,Fraturas múltiplas irreparáveis,3.0,24.6,3,5,sem andar,nenhum,40.3,0,0,0,0
+854,Doença renal policística,2.8,27.7,1,0,limitada,baixo,40.9,0,0,1,0
+855,Carcinoma anal sac adenocarcinoma,6.7,6.4,1,6,limitada,baixo,38.9,1,0,0,0
+856,Infecção fúngica sistêmica grave,11.0,18.2,5,0,normal,baixo,38.1,0,0,0,0
+857,Complicações pós-operatórias fatais,5.3,46.0,5,1,limitada,normal,39.8,0,0,0,0
+858,Hidrocefalia avançada,1.1,15.2,4,8,sem andar,nenhum,38.7,1,0,0,0
+859,Blastomicose avançada,10.3,13.8,10,1,sem andar,baixo,39.3,1,7,0,0
+860,Linfadenopatia generalizada maligna,4.8,38.9,3,10,sem andar,baixo,39.9,1,0,0,0
+861,Disfunção cognitiva avançada,5.2,35.9,8,8,sem andar,nenhum,40.6,1,4,0,1
+862,Tumores cutâneos malignos disseminados,1.5,49.5,5,9,normal,baixo,40.7,1,0,0,0
+863,Disfunção cognitiva avançada,11.5,42.7,5,9,sem andar,normal,40.7,1,0,0,0
+864,Espondilose severa,3.5,2.9,3,2,limitada,baixo,37.9,0,0,1,0
+865,Insuficiência hepática terminal,5.2,43.8,7,1,normal,normal,39.0,1,4,0,0
+866,Surdez total associada a confusão,7.6,41.7,7,8,sem andar,baixo,40.7,1,2,0,0
+867,Doença autoimune avançada,12.2,25.9,4,1,sem andar,baixo,37.6,0,0,1,0
+868,Encefalite canina grave,11.8,42.8,0,4,sem andar,nenhum,38.6,0,0,1,0
+869,Artrite severa intratável,8.2,41.6,3,3,sem andar,baixo,38.7,0,0,1,0
+870,Doença mitral canina terminal,4.4,48.2,10,4,normal,nenhum,37.9,1,2,0,0
+871,Criptorquidismo com câncer testicular,7.5,19.7,3,10,sem andar,nenhum,39.1,1,0,0,0
+872,Hepatite crônica severa,9.9,12.1,5,4,normal,baixo,40.2,0,0,0,0
+873,Sequelas graves de trauma craniano,6.9,13.2,10,4,normal,normal,39.4,1,2,0,0
+874,Linfangiossarcoma,1.8,9.0,6,5,normal,baixo,40.4,1,3,0,0
+875,Falência de múltiplos órgãos,2.5,46.2,0,6,limitada,normal,40.1,1,0,0,0
+876,Disfunção cognitiva avançada,14.0,46.3,10,7,limitada,baixo,38.4,1,6,0,0
+877,Peritonite infecciosa canina,12.7,30.2,10,4,normal,baixo,40.2,1,5,0,0
+878,Displasia coxofemoral extrema,8.4,11.3,1,2,normal,baixo,38.3,0,0,1,0
+879,Toxicidade irreversível por medicamentos,10.7,46.3,10,9,limitada,baixo,40.9,1,2,0,0
+880,Paralisia total,10.0,14.0,9,10,sem andar,baixo,37.6,1,1,0,1
+881,Leptospirose avançada,6.0,44.3,10,6,limitada,normal,41.2,1,5,0,0
+882,Fibrosarcoma oral,1.8,3.7,7,3,sem andar,nenhum,39.1,1,7,0,0
+883,Hemofilia grave,4.7,31.2,10,10,sem andar,nenhum,41.5,1,3,0,1
+884,Esofagite grave crônica,6.0,39.3,3,9,normal,baixo,37.9,1,0,0,0
+885,Esquistossomose com falência hepática,7.1,49.9,4,5,normal,baixo,38.8,0,0,0,0
+886,Blastomicose avançada,1.7,2.8,7,4,sem andar,baixo,39.2,1,3,0,0
+887,Sequelas de queimaduras extensas,7.9,12.7,10,0,limitada,normal,37.6,1,1,0,0
+888,Surdez total associada a confusão,13.6,49.0,2,9,normal,normal,38.5,1,0,0,0
+889,Tumores mamários malignos inoperáveis,2.8,41.2,3,6,normal,normal,39.9,1,0,0,0
+890,Síndrome de Wobbler avançada,10.8,16.4,7,8,sem andar,nenhum,40.8,1,5,0,0
+891,Toxicidade irreversível por medicamentos,12.1,39.0,10,6,normal,nenhum,38.3,1,7,0,0
+892,Problemas neurológicos degenerativos,11.1,9.0,6,2,limitada,baixo,39.3,1,6,0,0
+893,Metástases ósseas múltiplas,14.7,33.7,10,8,sem andar,baixo,39.0,1,3,0,1
+894,Linfoma canino em estágio terminal,9.6,25.8,3,6,normal,baixo,38.1,1,0,0,0
+895,Sequelas de queimaduras extensas,4.4,39.6,9,3,normal,nenhum,39.6,1,4,0,0
+896,Melanoma oral metastático,6.4,42.1,3,6,limitada,normal,37.6,1,0,0,0
+897,Doença degenerativa das válvulas cardíacas,3.8,2.2,1,3,limitada,baixo,38.3,0,0,1,0
+898,Doença de Addison em crise,7.1,27.3,7,3,sem andar,baixo,39.6,1,5,0,0
+899,Tumores mamários malignos inoperáveis,5.7,27.8,3,7,sem andar,nenhum,39.7,1,0,0,0
+900,Retocolite ulcerativa canina,0.8,27.1,10,0,limitada,nenhum,40.8,1,3,0,0
+901,Insuficiência adrenal severa,11.1,2.1,4,8,normal,nenhum,41.2,1,0,0,0
+902,Pancreatite crônica grave,1.4,39.3,3,1,sem andar,normal,37.5,0,0,1,0
+903,Infecção bacteriana sistêmica,0.7,29.0,2,1,normal,nenhum,39.1,0,0,1,0
+904,Sequelas de maus-tratos graves,11.1,42.5,10,6,sem andar,normal,40.8,1,6,0,0
+905,Doença periodontal extrema,15.0,47.1,2,5,sem andar,nenhum,37.6,0,0,0,0
+906,Falência de múltiplos órgãos,1.4,5.3,6,4,sem andar,baixo,40.3,1,7,0,0
+907,Dermatose autoimune,6.8,12.1,8,8,sem andar,baixo,37.9,1,7,0,1
+908,Insuficiência hepática terminal,12.8,6.5,0,1,normal,baixo,39.0,0,0,1,0
+909,Esquistossomose com falência hepática,11.5,31.2,5,0,normal,nenhum,41.0,0,0,0,0
+910,Hiperadrenocorticismo não controlado,7.1,32.5,4,1,normal,normal,40.8,0,0,1,0
+911,Falência de múltiplos órgãos,14.8,16.2,3,10,normal,baixo,40.8,1,0,0,0
+912,Histiocitose maligna,1.5,42.6,10,9,limitada,baixo,38.6,1,6,0,0
+913,Sarcóide agressivo,10.3,3.0,0,8,limitada,baixo,37.7,1,0,0,0
+914,Problemas neurológicos degenerativos,1.6,10.5,0,5,sem andar,nenhum,40.2,0,0,0,0
+915,Luxação patelar grau IV,3.2,13.0,5,8,sem andar,nenhum,40.0,1,0,0,0
+916,Peritonite infecciosa canina,5.1,3.6,5,7,sem andar,baixo,38.3,1,0,0,0
+917,Hemorragia interna recorrente,6.5,25.0,6,9,sem andar,baixo,41.5,1,3,0,0
+918,Hidrocefalia avançada,14.5,14.2,1,5,limitada,baixo,38.2,0,0,0,0
+919,Criptorquidismo com câncer testicular,7.9,47.1,8,3,sem andar,nenhum,37.8,1,1,0,0
+920,Doença do neurônio motor canino,14.8,16.1,9,1,normal,baixo,38.7,1,5,0,0
+921,Síndrome de Cushing descompensada,13.7,48.3,8,2,sem andar,normal,39.2,1,2,0,0
+922,Doença inflamatória intestinal severa,3.2,13.7,7,9,sem andar,baixo,39.5,1,5,0,0
+923,Dermatose autoimune,5.3,45.6,3,4,normal,normal,39.7,0,0,1,0
+924,Hemangiossarcoma avançado,12.9,23.6,2,1,sem andar,baixo,41.3,0,0,1,0
+925,Síndrome respiratória obstrutiva crônica,7.8,14.0,5,9,normal,baixo,40.5,1,0,0,0
+926,Tromboembolismo pulmonar canino,7.9,31.9,0,9,limitada,baixo,38.7,1,0,0,0
+927,Falência de múltiplos órgãos,14.5,32.4,5,6,normal,normal,39.0,1,0,0,0
+928,Diabetes mellitus descontrolado,7.7,17.4,3,7,sem andar,normal,38.3,1,0,0,0
+929,Hemorragia interna recorrente,2.9,46.9,1,1,limitada,baixo,39.8,0,0,1,0
+930,Problemas neurológicos degenerativos,1.5,48.3,1,3,sem andar,baixo,40.2,0,0,1,0
+931,Toxicidade irreversível por medicamentos,8.4,28.2,6,5,normal,baixo,41.3,1,1,0,0
+932,Tumores cutâneos malignos disseminados,10.9,45.0,6,2,normal,baixo,41.4,1,6,0,0
+933,Sequelas de queimaduras extensas,2.9,3.3,10,4,sem andar,normal,38.9,1,7,0,0
+934,Linfoma canino em estágio terminal,14.1,30.3,7,7,limitada,nenhum,41.2,1,3,0,0
+935,Doença do carrapato grave,10.6,34.2,2,10,limitada,nenhum,41.0,1,0,0,0
+936,Doença de Lyme severa,13.3,45.8,4,8,limitada,nenhum,41.2,1,0,0,0
+937,Infecção fúngica sistêmica grave,5.9,11.1,8,7,normal,normal,39.6,1,2,0,0
+938,Complicações pós-operatórias fatais,1.5,47.6,0,3,sem andar,nenhum,41.0,0,0,1,0
+939,Síndrome de má absorção severa,9.8,45.6,3,3,normal,baixo,38.8,0,0,1,0
+940,Luxação patelar grau IV,8.7,23.8,0,10,normal,baixo,38.5,1,0,0,0
+941,Síndrome de Wobbler avançada,4.7,34.7,3,7,sem andar,nenhum,39.3,1,0,0,0
+942,Glaucoma doloroso intratável,11.8,11.4,9,7,limitada,normal,40.7,1,6,0,0
+943,Tumor cerebral inoperável,6.2,49.6,2,3,sem andar,nenhum,40.4,0,0,1,0
+944,Doença mitocondrial canina,11.4,42.1,8,1,limitada,nenhum,39.2,1,3,0,0
+945,Doença mitocondrial canina,1.1,30.9,0,1,normal,nenhum,38.3,0,0,1,0
+946,Infecção bacteriana sistêmica,11.2,29.9,3,10,limitada,normal,41.5,1,0,0,0
+947,Síndrome de Cushing descompensada,1.7,49.5,2,0,sem andar,baixo,41.1,0,0,1,0
+948,Surdez total associada a confusão,9.3,31.3,2,6,limitada,baixo,40.2,1,0,0,0
+949,Doença mitocondrial canina,9.8,44.0,0,10,sem andar,baixo,39.6,1,0,0,0
+950,Cinomose em estágio terminal,11.8,6.6,0,9,sem andar,normal,40.2,1,0,0,0
+951,Diabetes mellitus descontrolado,4.1,49.3,7,8,limitada,baixo,40.0,1,6,0,0
+952,Infecção bacteriana sistêmica,8.2,34.9,6,9,limitada,baixo,37.9,1,4,0,0
+953,Diabetes mellitus descontrolado,2.4,22.4,7,0,normal,baixo,39.9,1,5,0,0
+954,Neuropatia periférica grave,1.1,33.0,4,8,sem andar,normal,39.6,1,0,0,0
+955,Tumores mamários malignos inoperáveis,6.6,9.3,9,2,normal,baixo,40.8,1,5,0,0
+956,Hemofilia grave,7.0,41.9,0,1,normal,normal,38.6,0,0,1,0
+957,Blastomicose avançada,8.4,31.0,6,4,sem andar,baixo,39.9,1,1,0,0
+958,Leucemia canina terminal,6.0,32.1,3,7,limitada,nenhum,38.6,1,0,0,0
+959,Displasia coxofemoral extrema,13.2,35.1,1,2,sem andar,baixo,40.9,0,0,1,0
+960,Síndrome de má absorção severa,6.6,38.4,5,1,normal,nenhum,38.0,0,0,0,0
+961,Dermatose autoimune,10.3,5.4,7,4,sem andar,nenhum,40.1,1,5,0,0
+962,Displasia coxofemoral extrema,6.1,22.8,5,7,sem andar,normal,38.7,1,0,0,0
+963,Blastomicose avançada,5.4,25.0,8,5,normal,normal,38.6,1,2,0,0
+964,Infecções resistentes hospitalares,11.2,4.1,9,0,normal,normal,40.3,1,1,0,0
+965,Fraturas múltiplas irreparáveis,5.2,33.1,6,3,limitada,baixo,37.7,1,3,0,0
+966,Espondilose severa,5.4,39.5,6,6,sem andar,normal,40.1,1,4,0,0
+967,Síndrome de Chediak-Higashi canina,11.2,37.8,7,9,limitada,nenhum,38.3,1,7,0,0
+968,Insuficiência adrenal severa,7.8,11.5,8,0,sem andar,baixo,40.2,1,4,0,0
+969,Distrofia muscular,10.7,48.5,1,1,sem andar,normal,40.4,0,0,1,0
+970,Hemorragia interna recorrente,12.4,42.2,10,6,normal,normal,39.1,1,4,0,0
+971,Metástases ósseas múltiplas,11.6,18.7,3,10,limitada,normal,39.2,1,0,0,0
+972,Falência de múltiplos órgãos,14.4,6.5,6,0,limitada,normal,38.1,1,5,0,0
+973,Tumores nasais inoperáveis,13.6,40.4,3,0,limitada,normal,41.2,0,0,1,0
+974,Hemorragia interna recorrente,0.8,19.8,4,4,sem andar,nenhum,40.0,0,0,1,0
+975,Histoplasmose disseminada,13.9,20.0,3,5,sem andar,nenhum,37.7,0,0,0,0
+976,Peritonite infecciosa canina,2.7,22.3,2,4,normal,normal,41.1,0,0,1,0
+977,Doença do carrapato grave,3.2,8.3,5,8,limitada,normal,39.6,1,0,0,0
+978,Infecção fúngica sistêmica grave,3.8,43.0,5,5,normal,baixo,39.6,0,0,0,0
+979,Insuficiência hepática terminal,7.1,21.5,7,2,sem andar,nenhum,40.8,1,7,0,0
+980,Tumor cerebral inoperável,14.9,26.8,1,6,sem andar,nenhum,41.0,1,0,0,0
+981,Retocolite ulcerativa canina,6.0,44.4,0,3,limitada,nenhum,39.6,0,0,1,0
+982,Doença parasitária crônica grave,12.3,10.6,9,1,normal,normal,39.2,1,2,0,0
+983,Síndrome vestibular canina grave,8.7,21.3,7,4,limitada,nenhum,38.5,1,3,0,0
+984,Linfoma canino em estágio terminal,1.9,44.8,1,4,limitada,baixo,37.6,0,0,1,0
+985,Falência de múltiplos órgãos,4.8,33.2,1,6,limitada,nenhum,37.5,1,0,0,0
+986,Carcinoma anal sac adenocarcinoma,3.0,32.9,0,9,sem andar,normal,39.8,1,0,0,0
+987,Tumores mamários malignos inoperáveis,1.9,12.1,4,0,sem andar,nenhum,37.7,0,0,1,0
+988,Infecção bacteriana sistêmica,6.4,17.4,1,6,limitada,nenhum,38.5,1,0,0,0
+989,Esofagite grave crônica,12.0,45.2,4,6,normal,baixo,37.7,1,0,0,0
+990,Doença de Lyme severa,14.8,43.1,3,8,normal,normal,40.4,1,0,0,0
+991,Doença inflamatória intestinal severa,1.4,28.9,5,3,normal,normal,39.9,0,0,0,0
+992,Diabetes mellitus descontrolado,4.8,22.2,4,1,sem andar,nenhum,41.1,0,0,1,0
+993,Displasia coxofemoral extrema,2.1,28.0,8,5,sem andar,nenhum,39.2,1,5,0,0
+994,Parvovirose grave,0.9,27.6,9,3,sem andar,nenhum,40.9,1,6,0,0
+995,Metástases ósseas múltiplas,2.1,43.6,10,5,limitada,baixo,37.8,1,4,0,0
+996,Sarcóide agressivo,2.3,47.4,3,10,normal,normal,40.7,1,0,0,0
+997,Cinomose em estágio terminal,13.4,7.2,4,1,normal,baixo,40.6,0,0,1,0
+998,Câncer terminal,13.0,37.3,3,2,sem andar,nenhum,41.0,0,0,1,0
+999,Paralisia total,1.3,38.2,7,7,limitada,nenhum,39.6,1,6,0,0
+1000,Melanoma oral metastático,8.7,41.4,9,2,sem andar,baixo,40.1,1,6,0,0
