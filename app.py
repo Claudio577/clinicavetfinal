@@ -36,27 +36,17 @@ def treinar_modelos(df, features, features_eutanasia, df_doencas):
     df['Mobilidade'] = le_mob.fit_transform(df['Mobilidade'].str.lower().str.strip())
     df['Apetite'] = le_app.fit_transform(df['Apetite'].str.lower().str.strip())
 
-    palavras_chave = [
-        normalizar_texto(d)
-        for d in df_doencas['Doença'].dropna().unique()
-    ]
-
-    df['tem_doenca_letal'] = df['Doença'].fillna("").apply(
-        lambda d: int(any(p in normalizar_texto(d) for p in palavras_chave))
-    )
+    palavras_chave = [normalizar_texto(d) for d in df_doencas['Doença'].dropna().unique()]
+    df['tem_doenca_letal'] = df['Doença'].fillna("").apply(lambda d: int(any(p in normalizar_texto(d) for p in palavras_chave)))
 
     X_eutanasia = df[features_eutanasia]
     y_eutanasia = df['Eutanasia']
 
     X_train, _, y_train, _ = train_test_split(X_eutanasia, y_eutanasia, test_size=0.2, stratify=y_eutanasia, random_state=42)
 
-    modelo_eutanasia = RandomForestClassifier(class_weight='balanced', random_state=42)
-    modelo_eutanasia.fit(X_train, y_train)
-
+    modelo_eutanasia = RandomForestClassifier(class_weight='balanced', random_state=42).fit(X_train, y_train)
     modelo_alta = RandomForestClassifier().fit(df[features], df['Alta'])
-    modelo_internar = RandomForestClassifier(class_weight='balanced', random_state=42)
-    modelo_internar.fit(df[features], df['Internar'])
-
+    modelo_internar = RandomForestClassifier(class_weight='balanced', random_state=42).fit(df[features], df['Internar'])
     modelo_dias = RandomForestRegressor().fit(df[df['Internar'] == 1][features], df[df['Internar'] == 1]['Dias Internado'])
 
     return modelo_eutanasia, modelo_alta, modelo_internar, modelo_dias, le_mob, le_app, palavras_chave
@@ -114,8 +104,18 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     elif internar == 0:
         dias = 0
 
-    # ✅ Corrigir alta para casos leves e curáveis
+    # Correção 1: casos leves e curáveis
     if alta == 0 and internar == 0 and prob_eutanasia < 0.05 and tem_doenca_curavel:
+        alta = 1
+
+    # Correção 2: pacientes saudáveis
+    if (
+        alta == 0 and internar == 0 and prob_eutanasia < 0.05
+        and not tem_doenca_letal and not tem_doenca_curavel
+        and apetite == le_app.transform(["normal"])[0]
+        and mobilidade == le_mob.transform(["normal"])[0]
+        and gravidade <= 5 and dor <= 4
+    ):
         alta = 1
 
     return {
