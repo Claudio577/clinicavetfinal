@@ -37,7 +37,7 @@ def treinar_modelos(df, features, features_eutanasia, df_doencas):
     df['Apetite'] = le_app.fit_transform(df['Apetite'].str.lower().str.strip())
 
     palavras_chave = [
-        unicodedata.normalize('NFKD', d).encode('ASCII', 'ignore').decode('utf-8').lower().strip()
+        normalizar_texto(d)
         for d in df_doencas['Doença'].dropna().unique()
     ]
 
@@ -132,7 +132,11 @@ try:
     df, df_doencas, df_curaveis = carregar_dados()
     features = ['Idade', 'Peso', 'Gravidade', 'Dor', 'Mobilidade', 'Apetite', 'Temperatura']
     features_eutanasia = features + ['tem_doenca_letal']
-    modelos = treinar_modelos(df, features, features_eutanasia, df_doencas)
+    try:
+        modelos = treinar_modelos(df, features, features_eutanasia, df_doencas)
+    except Exception as e:
+        st.error(f"Erro ao treinar modelos: {str(e)}")
+        st.stop()
     palavras_curaveis = [normalizar_texto(d) for d in df_curaveis['Doença'].dropna().unique()]
 except Exception as e:
     st.error(f"Erro ao preparar o sistema: {str(e)}")
@@ -144,7 +148,7 @@ if st.button("🔍 Analisar"):
     if texto.strip() == "":
         st.warning("Digite uma anamnese para analisar.")
     else:
-        if len(modelos) != 7:
+        if not isinstance(modelos, (list, tuple)) or len(modelos) != 7:
             st.error("Erro interno: estrutura de modelos incompleta.")
             st.stop()
         modelo_eutanasia, modelo_alta, modelo_internar, modelo_dias = modelos[:4]
