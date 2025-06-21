@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 import unicodedata
@@ -43,8 +42,7 @@ def treinar_modelos(df, features, features_eutanasia, df_doencas):
     ]
 
     df['tem_doenca_letal'] = df['Doença'].fillna("").apply(
-        lambda d: int(any(p in unicodedata.normalize('NFKD', d).encode('ASCII', 'ignore').decode('utf-8').lower()
-                          for p in palavras_chave))
+        lambda d: int(any(p in normalizar_texto(d) for p in palavras_chave))
     )
 
     X_eutanasia = df[features_eutanasia]
@@ -126,6 +124,8 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
         "Doenças Curáveis Detectadas": doencas_curaveis_detectadas if doencas_curaveis_detectadas else "Nenhuma"
     }
 
+# ================= INTERFACE STREAMLIT =================
+
 st.title("🐶 Sistema de Análise Clínica Veterinária")
 
 try:
@@ -144,7 +144,14 @@ if st.button("🔍 Analisar"):
     if texto.strip() == "":
         st.warning("Digite uma anamnese para analisar.")
     else:
-        resultado = prever(texto, modelos, modelos[4], modelos[5], modelos[6], features, features_eutanasia, palavras_curaveis)
+        if len(modelos) != 7:
+            st.error("Erro interno: estrutura de modelos incompleta.")
+            st.stop()
+        modelo_eutanasia, modelo_alta, modelo_internar, modelo_dias = modelos[:4]
+        le_mob, le_app, palavras_chave = modelos[4:]
+        resultado = prever(texto, (modelo_eutanasia, modelo_alta, modelo_internar, modelo_dias),
+                           le_mob, le_app, palavras_chave,
+                           features, features_eutanasia, palavras_curaveis)
         st.subheader("📋 Resultado da Análise")
         for k, v in resultado.items():
             st.write(f"**{k}**: {v}")
