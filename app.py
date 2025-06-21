@@ -36,7 +36,9 @@ def treinar_modelos(df, features, features_eutanasia, df_doencas):
     df['Apetite'] = le_app.fit_transform(df['Apetite'].str.lower().str.strip())
 
     palavras_chave = [normalizar_texto(d) for d in df_doencas['Doença'].dropna().unique()]
-    df['tem_doenca_letal'] = df['Doença'].fillna("").apply(lambda d: int(any(p in normalizar_texto(d) for p in palavras_chave)))
+    df['tem_doenca_letal'] = df['Doença'].fillna("").apply(
+        lambda d: int(any(p in normalizar_texto(d) for p in palavras_chave))
+    )
 
     X_eutanasia = df[features_eutanasia]
     y_eutanasia = df['Eutanasia']
@@ -47,7 +49,6 @@ def treinar_modelos(df, features, features_eutanasia, df_doencas):
     modelo_dias = RandomForestRegressor().fit(df[df['Internar'] == 1][features], df[df['Internar'] == 1]['Dias Internado'])
 
     return modelo_eutanasia, modelo_internar, modelo_dias, le_mob, le_app, palavras_chave
-
 def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features_eutanasia, palavras_curaveis):
     modelo_eutanasia, modelo_internar, modelo_dias = modelos
     texto_norm = normalizar_texto(anamnese)
@@ -82,7 +83,11 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     doencas_detectadas = [p for p in palavras_chave if p in texto_norm]
     tem_doenca_letal = int(len(doencas_detectadas) > 0)
 
-    doencas_curaveis_detectadas = [d for d in palavras_curaveis if d in texto_norm]
+    # ❗ Evita marcar como curável se é letal
+    doencas_curaveis_detectadas = [
+        d for d in palavras_curaveis
+        if d in texto_norm and all(d not in p for p in doencas_detectadas)
+    ]
     tem_doenca_curavel = int(len(doencas_curaveis_detectadas) > 0)
 
     entrada = pd.DataFrame([[idade, peso, gravidade, dor, mobilidade, apetite, temperatura, tem_doenca_letal]],
@@ -107,6 +112,10 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     elif internar == 0:
         dias = 0
 
+    # 🔥 Força chance de eutanásia se grave e letal
+    if tem_doenca_letal and tem_sintoma_critico:
+        prob_eutanasia = max(prob_eutanasia, 0.9)
+
     alta = 1
     if (
         internar == 1
@@ -126,7 +135,6 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
         "Doença Potencialmente Curável": "Sim" if tem_doenca_curavel else "Não",
         "Doenças Curáveis Detectadas": doencas_curaveis_detectadas if doencas_curaveis_detectadas else "Nenhuma"
     }
-
 # ========== INTERFACE STREAMLIT ==========
 
 st.title("🐶 Sistema de Análise Clínica Veterinária")
@@ -155,4 +163,5 @@ if st.button("🔍 Analisar"):
         st.subheader("📋 Resultado da Análise")
         for k, v in resultado.items():
             st.write(f"**{k}**: {v}")
+
 
