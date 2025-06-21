@@ -100,18 +100,17 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     elif internar == 0:
         dias = 0
 
-    # ✅ Alta por regra clínica com ausência de sintomas
-    sintomas_negativos = ["vomito", "febre", "letargia", "diarreia", "dor", "infeccao", "sangramento", "tosse"]
+    # ✅ Alta por padrão, exceto se algo exigir o contrário
+    alta = 1
+    sintomas_criticos = ["vomito", "febre", "letargia", "diarreia", "dor", "infeccao", "sangramento", "tosse"]
+
     if (
-        internar == 0 and prob_eutanasia < 0.05
-        and not tem_doenca_letal and not tem_doenca_curavel
-        and temperatura <= 39.0
-        and not any(p in texto_norm for p in sintomas_negativos)
+        internar == 1
+        or prob_eutanasia >= 0.05
+        or tem_doenca_letal
+        or temperatura > 39.0
+        or any(p in texto_norm for p in sintomas_criticos)
     ):
-        alta = 1
-    elif internar == 0 and prob_eutanasia < 0.05 and tem_doenca_curavel:
-        alta = 1
-    else:
         alta = 0
 
     return {
@@ -132,11 +131,7 @@ try:
     df, df_doencas, df_curaveis = carregar_dados()
     features = ['Idade', 'Peso', 'Gravidade', 'Dor', 'Mobilidade', 'Apetite', 'Temperatura']
     features_eutanasia = features + ['tem_doenca_letal']
-    try:
-        modelos = treinar_modelos(df, features, features_eutanasia, df_doencas)
-    except Exception as e:
-        st.error(f"Erro ao treinar modelos: {str(e)}")
-        st.stop()
+    modelos = treinar_modelos(df, features, features_eutanasia, df_doencas)
     palavras_curaveis = [normalizar_texto(d) for d in df_curaveis['Doença'].dropna().unique()]
 except Exception as e:
     st.error(f"Erro ao preparar o sistema: {str(e)}")
@@ -148,9 +143,6 @@ if st.button("🔍 Analisar"):
     if texto.strip() == "":
         st.warning("Digite uma anamnese para analisar.")
     else:
-        if not isinstance(modelos, (list, tuple)) or len(modelos) != 6:
-            st.error("Erro interno: estrutura de modelos incompleta.")
-            st.stop()
         modelo_eutanasia, modelo_internar, modelo_dias = modelos[:3]
         le_mob, le_app, palavras_chave = modelos[3:]
         resultado = prever(texto, (modelo_eutanasia, modelo_internar, modelo_dias),
