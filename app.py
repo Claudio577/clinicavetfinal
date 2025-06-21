@@ -100,12 +100,13 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     elif internar == 0:
         dias = 0
 
-    # ✅ Alta por regra clínica
+    # ✅ Alta por regra clínica com ausência de sintomas
+    sintomas_negativos = ["vomito", "febre", "letargia", "diarreia", "dor", "infeccao", "sangramento", "tosse"]
     if (
         internar == 0 and prob_eutanasia < 0.05
         and not tem_doenca_letal and not tem_doenca_curavel
         and temperatura <= 39.0
-        and any(p in texto_norm for p in ["sem sintomas", "bom estado geral", "exame de rotina"])
+        and not any(p in texto_norm for p in sintomas_negativos)
     ):
         alta = 1
     elif internar == 0 and prob_eutanasia < 0.05 and tem_doenca_curavel:
@@ -158,4 +159,5 @@ if st.button("🔍 Analisar"):
         st.subheader("📋 Resultado da Análise")
         for k, v in resultado.items():
             st.write(f"**{k}**: {v}")
+
 
