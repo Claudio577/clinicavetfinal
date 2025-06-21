@@ -53,9 +53,9 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     modelo_eutanasia, modelo_internar, modelo_dias = modelos
     texto_norm = normalizar_texto(anamnese)
 
-    idade = extrair_variavel(r"(\\d+(?:\\.\\d+)?)\\s*anos?", texto_norm, float, 5.0)
-    peso = extrair_variavel(r"(\\d+(?:\\.\\d+)?)\\s*kg", texto_norm, float, 10.0)
-    temperatura = extrair_variavel(r"(\\d{2}(?:[.,]\\d+)?)\\s*(?:graus|c|celsius|ºc)", texto_norm, float, 38.5)
+    idade = extrair_variavel(r"(\d+(?:\.\d+)?)\s*anos?", texto_norm, float, 5.0)
+    peso = extrair_variavel(r"(\d+(?:\.\d+)?)\s*kg", texto_norm, float, 10.0)
+    temperatura = extrair_variavel(r"(\d{2}(?:[.,]\d+)?)\s*(?:graus|c|celsius|ºc)", texto_norm, float, 38.5)
     gravidade = 10 if "vermelho" in texto_norm else 5
 
     if any(p in texto_norm for p in ["dor intensa", "dor severa", "dor forte"]):
@@ -94,16 +94,17 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     prob_internar = modelo_internar.predict_proba(entrada[features])[0][1]
     internar = 1 if prob_internar > 0.4 else 0
 
+    sintomas_criticos = ["vomito", "febre", "diarreia", "apatia", "desidratacao", "letargia", "sangramento", "prostracao", "não levanta", "sem comer", "ofegante"]
+    if any(s in texto_norm for s in sintomas_criticos):
+        internar = 1
+
     dias = int(round(modelo_dias.predict(entrada[features])[0]))
-    if internar == 1 and dias < 1:
+    if internar == 1 and dias < 2:
         dias = 2
     elif internar == 0:
         dias = 0
 
-    # ✅ Alta por padrão, exceto se algo exigir o contrário
     alta = 1
-    sintomas_criticos = ["vomito", "febre", "letargia", "diarreia", "dor", "infeccao", "sangramento", "tosse"]
-
     if (
         internar == 1
         or prob_eutanasia >= 0.05
@@ -123,7 +124,7 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
         "Doenças Curáveis Detectadas": doencas_curaveis_detectadas if doencas_curaveis_detectadas else "Nenhuma"
     }
 
-# ================= INTERFACE STREAMLIT =================
+# ========== INTERFACE STREAMLIT ==========
 
 st.title("🐶 Sistema de Análise Clínica Veterinária")
 
