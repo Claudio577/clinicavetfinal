@@ -32,7 +32,6 @@ def carregar_dados():
 def treinar_modelos(df, features, features_eutanasia, df_doencas):
     le_mob = LabelEncoder()
     le_app = LabelEncoder()
-
     df['Mobilidade'] = le_mob.fit_transform(df['Mobilidade'].str.lower().str.strip())
     df['Apetite'] = le_app.fit_transform(df['Apetite'].str.lower().str.strip())
 
@@ -45,19 +44,18 @@ def treinar_modelos(df, features, features_eutanasia, df_doencas):
     X_train, _, y_train, _ = train_test_split(X_eutanasia, y_eutanasia, test_size=0.2, stratify=y_eutanasia, random_state=42)
 
     modelo_eutanasia = RandomForestClassifier(class_weight='balanced', random_state=42).fit(X_train, y_train)
-    modelo_alta = RandomForestClassifier().fit(df[features], df['Alta'])
     modelo_internar = RandomForestClassifier(class_weight='balanced', random_state=42).fit(df[features], df['Internar'])
     modelo_dias = RandomForestRegressor().fit(df[df['Internar'] == 1][features], df[df['Internar'] == 1]['Dias Internado'])
 
-    return modelo_eutanasia, modelo_alta, modelo_internar, modelo_dias, le_mob, le_app, palavras_chave
+    return modelo_eutanasia, modelo_internar, modelo_dias, le_mob, le_app, palavras_chave
 
 def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features_eutanasia, palavras_curaveis):
-    modelo_eutanasia, modelo_alta, modelo_internar, modelo_dias = modelos
+    modelo_eutanasia, modelo_internar, modelo_dias = modelos
     texto_norm = normalizar_texto(anamnese)
 
-    idade = extrair_variavel(r"(\d+(?:\.\d+)?)\s*anos?", texto_norm, float, 5.0)
-    peso = extrair_variavel(r"(\d+(?:\.\d+)?)\s*kg", texto_norm, float, 10.0)
-    temperatura = extrair_variavel(r"(\d{2}(?:[.,]\d+)?)\s*(?:graus|c|celsius|ºc)", texto_norm, float, 38.5)
+    idade = extrair_variavel(r"(\\d+(?:\\.\\d+)?)\\s*anos?", texto_norm, float, 5.0)
+    peso = extrair_variavel(r"(\\d+(?:\\.\\d+)?)\\s*kg", texto_norm, float, 10.0)
+    temperatura = extrair_variavel(r"(\\d{2}(?:[.,]\\d+)?)\\s*(?:graus|c|celsius|ºc)", texto_norm, float, 38.5)
     gravidade = 10 if "vermelho" in texto_norm else 5
 
     if any(p in texto_norm for p in ["dor intensa", "dor severa", "dor forte"]):
@@ -94,8 +92,6 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
 
     prob_eutanasia = modelo_eutanasia.predict_proba(entrada)[0][1]
     prob_internar = modelo_internar.predict_proba(entrada[features])[0][1]
-
-    alta = modelo_alta.predict(entrada[features])[0]
     internar = 1 if prob_internar > 0.4 else 0
 
     dias = int(round(modelo_dias.predict(entrada[features])[0]))
@@ -104,19 +100,18 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     elif internar == 0:
         dias = 0
 
-    # Correção 1: casos leves e curáveis
-    if alta == 0 and internar == 0 and prob_eutanasia < 0.05 and tem_doenca_curavel:
-        alta = 1
-
-    # Correção 2: pacientes saudáveis
+    # ✅ Alta por regra clínica
     if (
-        alta == 0 and internar == 0 and prob_eutanasia < 0.05
+        internar == 0 and prob_eutanasia < 0.05
         and not tem_doenca_letal and not tem_doenca_curavel
-        and apetite == le_app.transform(["normal"])[0]
-        and mobilidade == le_mob.transform(["normal"])[0]
-        and gravidade <= 5 and dor <= 4
+        and temperatura <= 39.0
+        and any(p in texto_norm for p in ["sem sintomas", "bom estado geral", "exame de rotina"])
     ):
         alta = 1
+    elif internar == 0 and prob_eutanasia < 0.05 and tem_doenca_curavel:
+        alta = 1
+    else:
+        alta = 0
 
     return {
         "Alta": "Sim" if alta == 1 else "Não",
@@ -152,12 +147,12 @@ if st.button("🔍 Analisar"):
     if texto.strip() == "":
         st.warning("Digite uma anamnese para analisar.")
     else:
-        if not isinstance(modelos, (list, tuple)) or len(modelos) != 7:
+        if not isinstance(modelos, (list, tuple)) or len(modelos) != 6:
             st.error("Erro interno: estrutura de modelos incompleta.")
             st.stop()
-        modelo_eutanasia, modelo_alta, modelo_internar, modelo_dias = modelos[:4]
-        le_mob, le_app, palavras_chave = modelos[4:]
-        resultado = prever(texto, (modelo_eutanasia, modelo_alta, modelo_internar, modelo_dias),
+        modelo_eutanasia, modelo_internar, modelo_dias = modelos[:3]
+        le_mob, le_app, palavras_chave = modelos[3:]
+        resultado = prever(texto, (modelo_eutanasia, modelo_internar, modelo_dias),
                            le_mob, le_app, palavras_chave,
                            features, features_eutanasia, palavras_curaveis)
         st.subheader("📋 Resultado da Análise")
