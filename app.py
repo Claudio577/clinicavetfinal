@@ -90,15 +90,16 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
 
     prob_eutanasia = modelo_eutanasia.predict_proba(entrada)[0][1]
     prob_internar = modelo_internar.predict_proba(entrada[features])[0][1]
-    internar = 1 if prob_internar > 0.4 else 0
+    internar_modelo = 1 if prob_internar > 0.4 else 0
 
     sintomas_criticos = [
         "vômito", "febre", "diarreia", "apatia", "desidratação", "letargia",
         "sangramento", "prostração", "não levanta", "sem comer", "ofegante"
     ]
     sintomas_criticos_norm = [normalizar_texto(s) for s in sintomas_criticos]
-    if any(s in texto_norm for s in sintomas_criticos_norm):
-        internar = 1
+    tem_sintoma_critico = any(s in texto_norm for s in sintomas_criticos_norm)
+
+    internar = 1 if internar_modelo == 1 or tem_sintoma_critico else 0
 
     dias = int(round(modelo_dias.predict(entrada[features])[0]))
     if internar == 1 and dias < 2:
@@ -112,7 +113,7 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
         or prob_eutanasia >= 0.05
         or tem_doenca_letal
         or temperatura > 39.0
-        or any(s in texto_norm for s in sintomas_criticos_norm)
+        or tem_sintoma_critico
     ):
         alta = 0
 
@@ -126,7 +127,7 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
         "Doenças Curáveis Detectadas": doencas_curaveis_detectadas if doencas_curaveis_detectadas else "Nenhuma"
     }
 
-# ========= INTERFACE STREAMLIT =========
+# ========== INTERFACE STREAMLIT ==========
 
 st.title("🐶 Sistema de Análise Clínica Veterinária")
 
