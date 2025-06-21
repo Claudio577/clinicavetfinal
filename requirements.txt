@@ -1,5 +1,4 @@
+streamlit
 pandas
 numpy
 scikit-learn
-imbalanced-learn
-streamlit
