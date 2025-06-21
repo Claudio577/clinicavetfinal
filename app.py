@@ -83,7 +83,6 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     doencas_detectadas = [p for p in palavras_chave if p in texto_norm]
     tem_doenca_letal = int(len(doencas_detectadas) > 0)
 
-    # ❗ Evita marcar como curável se é letal
     doencas_curaveis_detectadas = [
         d for d in palavras_curaveis
         if d in texto_norm and all(d not in p for p in doencas_detectadas)
@@ -112,7 +111,6 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     elif internar == 0:
         dias = 0
 
-    # 🔥 Força chance de eutanásia se grave e letal
     if tem_doenca_letal and tem_sintoma_critico:
         prob_eutanasia = max(prob_eutanasia, 0.9)
 
@@ -139,6 +137,18 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
 
 st.title("🐶 Sistema de Análise Clínica Veterinária")
 
+# Estado da sessão
+if "input_key" not in st.session_state:
+    st.session_state.input_key = "input_0"
+if "resultado" not in st.session_state:
+    st.session_state.resultado = None
+
+# Botão para nova anamnese
+if st.button("🆕 Nova Análise"):
+    st.session_state.input_key = f"input_{np.random.randint(1, 99999)}"
+    st.session_state.resultado = None
+
+# Carregar dados e treinar modelos
 try:
     df, df_doencas, df_curaveis = carregar_dados()
     features = ['Idade', 'Peso', 'Gravidade', 'Dor', 'Mobilidade', 'Apetite', 'Temperatura']
@@ -149,8 +159,10 @@ except Exception as e:
     st.error(f"Erro ao preparar o sistema: {str(e)}")
     st.stop()
 
-texto = st.text_area("✍️ Digite a anamnese do paciente:")
+# Campo de entrada
+texto = st.text_area("✍️ Digite a anamnese do paciente:", key=st.session_state.input_key)
 
+# Botão de análise
 if st.button("🔍 Analisar"):
     if texto.strip() == "":
         st.warning("Digite uma anamnese para analisar.")
@@ -160,8 +172,11 @@ if st.button("🔍 Analisar"):
         resultado = prever(texto, (modelo_eutanasia, modelo_internar, modelo_dias),
                            le_mob, le_app, palavras_chave,
                            features, features_eutanasia, palavras_curaveis)
-        st.subheader("📋 Resultado da Análise")
-        for k, v in resultado.items():
-            st.write(f"**{k}**: {v}")
+        st.session_state.resultado = resultado
 
+# Exibir resultados
+if st.session_state.resultado:
+    st.subheader("📋 Resultado da Análise")
+    for k, v in st.session_state.resultado.items():
+        st.write(f"**{k}**: {v}")
 
