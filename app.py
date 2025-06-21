@@ -40,7 +40,6 @@ def treinar_modelos(df, features, features_eutanasia, df_doencas):
 
     X_eutanasia = df[features_eutanasia]
     y_eutanasia = df['Eutanasia']
-
     X_train, _, y_train, _ = train_test_split(X_eutanasia, y_eutanasia, test_size=0.2, stratify=y_eutanasia, random_state=42)
 
     modelo_eutanasia = RandomForestClassifier(class_weight='balanced', random_state=42).fit(X_train, y_train)
@@ -58,14 +57,13 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     temperatura = extrair_variavel(r"(\d{2}(?:[.,]\d+)?)\s*(?:graus|c|celsius|ºc)", texto_norm, float, 38.5)
     gravidade = 10 if "vermelho" in texto_norm else 5
 
+    dor = 4
     if any(p in texto_norm for p in ["dor intensa", "dor severa", "dor forte"]):
         dor = 10
     elif "dor moderada" in texto_norm:
         dor = 5
     elif any(p in texto_norm for p in ["sem dor", "ausência de dor"]):
         dor = 0
-    else:
-        dor = 4
 
     if any(p in texto_norm for p in ["sem apetite", "não come", "perda de apetite"]):
         apetite = le_app.transform(["nenhum"])[0] if "nenhum" in le_app.classes_ else 0
@@ -94,8 +92,12 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     prob_internar = modelo_internar.predict_proba(entrada[features])[0][1]
     internar = 1 if prob_internar > 0.4 else 0
 
-    sintomas_criticos = ["vomito", "febre", "diarreia", "apatia", "desidratacao", "letargia", "sangramento", "prostracao", "não levanta", "sem comer", "ofegante"]
-    if any(s in texto_norm for s in sintomas_criticos):
+    sintomas_criticos = [
+        "vômito", "febre", "diarreia", "apatia", "desidratação", "letargia",
+        "sangramento", "prostração", "não levanta", "sem comer", "ofegante"
+    ]
+    sintomas_criticos_norm = [normalizar_texto(s) for s in sintomas_criticos]
+    if any(s in texto_norm for s in sintomas_criticos_norm):
         internar = 1
 
     dias = int(round(modelo_dias.predict(entrada[features])[0]))
@@ -110,7 +112,7 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
         or prob_eutanasia >= 0.05
         or tem_doenca_letal
         or temperatura > 39.0
-        or any(p in texto_norm for p in sintomas_criticos)
+        or any(s in texto_norm for s in sintomas_criticos_norm)
     ):
         alta = 0
 
@@ -124,7 +126,7 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
         "Doenças Curáveis Detectadas": doencas_curaveis_detectadas if doencas_curaveis_detectadas else "Nenhuma"
     }
 
-# ========== INTERFACE STREAMLIT ==========
+# ========= INTERFACE STREAMLIT =========
 
 st.title("🐶 Sistema de Análise Clínica Veterinária")
 
@@ -152,5 +154,4 @@ if st.button("🔍 Analisar"):
         st.subheader("📋 Resultado da Análise")
         for k, v in resultado.items():
             st.write(f"**{k}**: {v}")
-
 
