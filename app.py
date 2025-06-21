@@ -114,6 +114,10 @@ def prever(anamnese, modelos, le_mob, le_app, palavras_chave, features, features
     elif internar == 0:
         dias = 0
 
+    # ✅ Corrigir alta para casos leves e curáveis
+    if alta == 0 and internar == 0 and prob_eutanasia < 0.05 and tem_doenca_curavel:
+        alta = 1
+
     return {
         "Alta": "Sim" if alta == 1 else "Não",
         "Internar": "Sim" if internar == 1 else "Não",
@@ -159,3 +163,4 @@ if st.button("🔍 Analisar"):
         st.subheader("📋 Resultado da Análise")
         for k, v in resultado.items():
             st.write(f"**{k}**: {v}")
+
